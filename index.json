@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "plugins": [
   {
    "id": "com.musiquence.paint",
@@ -38,13 +38,13 @@
   {
    "id": "com.neurorehablab.taskgenerator",
    "name": "Task Generator",
-   "version": "2.0.2",
+   "version": "2.0.3",
    "description": "Task Generator: 11 cognitive tasks generated from a cognitive profile or from their variables; adaptive (difficulty ±0.5)",
    "icon": "🧠",
    "author": "NeuroRehabLab",
-   "file": "plugins/TaskGenerator-2.0.2.zip",
-   "size": 8902513,
-   "sha256": "1ba68b93dd37fb0329e30fbf7716e1bdbe286056de672f1d09d954ebb30c3fd6"
+   "file": "plugins/TaskGenerator-2.0.3.zip",
+   "size": 9008119,
+   "sha256": "bcb3c44648dd63b0bc34fe71fb215fdbef6dd03a41f15625905dc806796cdac6"
   }
  ]
 }
