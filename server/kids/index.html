@@ -757,6 +757,7 @@ table.cmp tr.cur td{background:#e3f4f1;font-weight:800}.cmp i,.cleg i{font-style
 @keyframes bootin{from{opacity:0;transform:translateY(16px)}}@keyframes bootbar{from{transform:translateX(-100%)}to{transform:translateX(250%)}}
 
 #stage.small .foot{display:none}
+#stage.small.emb #bun .foot{display:flex}
 
 /* 4.5 */
 .wmark{position:absolute;z-index:0;pointer-events:none;width:var(--wms,40%);max-height:70%;object-fit:contain}
@@ -774,6 +775,9 @@ table.cmp tr.cur td{background:#e3f4f1;font-weight:800}.cmp i,.cleg i{font-style
 .bungrid.fitted:not(.grp){gap:24px}
 .bungrid.fitted .binf{padding:14px 16px 16px;padding-right:16px}.bungrid.fitted .binf h3{font-size:clamp(18px,calc(var(--bw) * .075),32px);white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.1}
 .bungrid.fitted .bplay{bottom:auto;top:calc(var(--bw) * 9 / 16 - 66px);right:12px;height:54px;font-size:22px;padding:0 18px 0 10px}
+/* como no 4.4: «Jogar» na faixa de baixo, ao lado do nome, sem tapar a imagem */
+.bungrid.fitted .bplay{top:auto;bottom:14px;right:14px;height:calc(var(--bw) * .11);min-height:44px;max-height:58px;font-size:clamp(17px,calc(var(--bw) * .05),22px);border-width:4px}.bungrid.fitted .bplay svg{width:calc(var(--bw) * .08);height:calc(var(--bw) * .08);min-width:30px;min-height:30px;max-width:38px;max-height:38px}
+.bungrid.fitted .binf{padding-right:calc(var(--bw) * .34)!important;min-height:calc(var(--bw) * .16)}
 .odisp button{min-width:120px}
 #stage.small .dvbody{overflow:auto}
 #game .hud{right:calc(24px + var(--cx,0px));top:calc(20px + var(--cy,0px))}
@@ -4340,11 +4344,13 @@ function applyWatermark(){document.querySelectorAll('.wmark').forEach(x=>x.remov
   for(const id of ['menu','menu2','bun','loading']){const sc=$(id);if(!sc)continue;const im=document.createElement('img');im.className='wmark p-'+(W.pos||'center');im.alt='';im.src=W.img;
     im.style.opacity=String(W.op==null?.15:W.op);im.style.setProperty('--wms',(W.size||40)+'%');const bg=sc.querySelector(':scope>.bunbg');if(bg)bg.after(im);else sc.prepend(im)}}
 /* nas apps exportadas não aparecem os contactos da Musiquence: no seu lugar fica o logótipo do criador */
+function mqContact(){return '<a href="mailto:info@musiquencetechnologies.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg>info@musiquencetechnologies.com</a><a href="https://musiquencetechnologies.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>musiquencetechnologies.com</a>'};
 function applyFootLogo(){if(!EMB)return;const W=!EMB.free&&(EMB.wm||(CFG&&CFG.wm))||{};const bl=W.img&&(W.pos||'center')==='bl';const src=bl?W.img:(!EMB.free&&EMB.logo)||'';
-  document.querySelectorAll('[data-foot]').forEach(f=>{f.classList.add('flg');f.innerHTML='';if(!src)return;const im=document.createElement('img');im.className='flogo';im.alt='';im.src=src;
+  document.querySelectorAll('[data-foot]').forEach(f=>{f.classList.add('flg');f.innerHTML='';if(!src){/* sem logótipo: o contacto da Musiquence, à esquerda (como no 4.4) */if(!EMB.free){f.classList.remove('flg');f.innerHTML=mqContact()}return}const im=document.createElement('img');im.className='flogo';im.alt='';im.src=src;
     if(bl){im.style.opacity=String(W.op==null?.9:Math.max(.25,W.op));im.style.setProperty('--flh',Math.round((W.size||35)*2.4)+'px')}f.append(im)})}
 /* crédito e versão nas apps exportadas */
 function applyCredit(){if(!EMB)return;setVer();applyFootLogo();
+  if(!EMB.free)return;/* na versão Pro o rodapé tem o contacto em vez do crédito */
   for(const id of ['loading','bun','menu','menu2']){const sc=$(id);if(!sc||sc.querySelector('.mqcred'))continue;const c=document.createElement('div');c.className='mqcred';
     c.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg><span></span>`;c.querySelector('span').textContent=MQ_CREDIT();sc.append(c)}}
 
@@ -4365,10 +4371,10 @@ async function openProject(f){try{const zip=await openZip(f);const ents=[...zip.
     DV.X={env,games,step:0};renderExport();toast(L('Projeto aberto: {n} apps',{n:games.length}))}catch(e){toast(L('Não foi possível abrir o projeto')+': '+e.message)}}
 
 /* ---------- ajustar os cartões da página de entrada dos pacotes ao espaço (sem barras de deslocação) ---------- */
-function fitBun(){const G2=document.querySelector('#bun .bungrid');if(!G2||$('bun').hidden)return;const W=G2.clientWidth-24,H=G2.clientHeight-20;if(W<=0||H<=0)return;
+function fitBun(){const G2=document.querySelector('#bun .bungrid');if(!G2||$('bun').hidden)return;{const h1=document.querySelector('#bun .bunh h1');if(h1){h1.style.fontSize='';let f=parseFloat(getComputedStyle(h1).fontSize),n=0;h1.style.whiteSpace='nowrap';while(h1.scrollWidth>h1.clientWidth+1&&f>44&&n++<30){f-=3;h1.style.fontSize=f+'px'}h1.style.whiteSpace=h1.scrollWidth>h1.clientWidth+1?'':'nowrap'}}const W=G2.clientWidth-24,H=G2.clientHeight-20;if(W<=0||H<=0)return;
   const cards=[...G2.querySelectorAll('.bcard')];if(!cards.length)return;const gap=24,INF=118;
   if(G2.classList.contains('grp')){const rows=[...G2.querySelectorAll('.brow')];const k=Math.max(...rows.map(r=>r.children.length));const nc=rows.length;
-    const w1=(W-gap*(k-1))/k,w2=((H-nc*(52+24))/nc-INF)*16/9;const w=Math.max(170,Math.min(440,w1,w2));G2.style.setProperty('--bw',w+'px');G2.classList.add('fitted')}
+    /* por categorias: cartões grandes e a lista desliza (como no 4.4); só encolhem se não couberem na largura */const w1=(W-gap*(k-1))/k,w2=((H-Math.min(nc,2)*(52+24))/Math.min(nc,2)-INF)*16/9;const w=Math.max(Math.min(360,w1),Math.min(440,w1,Math.max(w2,360)));G2.style.setProperty('--bw',w+'px');G2.classList.add('fitted')}
   else{const n=cards.length;let best=200;for(let c=1;c<=n;c++){const r=Math.ceil(n/c);const w=Math.min((W-gap*(c-1))/c,((H-gap*(r-1))/r-INF)*16/9,c===1?900:640);if(w>best)best=w}
     G2.style.setProperty('--bw',Math.min(900,best)+'px');G2.classList.add('fitted')}}
 addEventListener('resize',()=>setTimeout(fitBun,60));
@@ -8941,7 +8947,7 @@ if(!EMB&&GT.has())GT.state().then(s=>{DK.gst=s}).catch(()=>{});
 .dk .ver{background:rgba(255,255,255,.85)!important;padding:4px 12px!important;border-radius:12px!important}.dk #dev .ver{background:rgba(20,34,46,.8)!important}
 `;document.head.append(st)}
 /* ---------- rodapé limpo: só a versão (discreta); contactos e © em Ajuda › Sobre o MQ Creator ---------- */
-const MQ_BUILD='4.8z69'; /* atualizado em cada publicação */
+const MQ_BUILD='4.8z71'; /* atualizado em cada publicação */
 (()=>{const T={'Sobre o MQ Creator':['Quant a MQ Creator','Acerca de MQ Creator','About MQ Creator','À propos de MQ Creator','Über MQ Creator','Informazioni su MQ Creator'],
   'Versão':['Versió','Versión','Version','Version','Version','Versione'],'Contacto':['Contacte','Contacto','Contact','Contact','Kontakt','Contatto'],
   'Licenças de terceiros':['Llicències de tercers','Licencias de terceros','Third-party licences','Licences tierces','Lizenzen Dritter','Licenze di terze parti'],
