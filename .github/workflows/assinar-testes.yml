@@ -1,0 +1,25 @@
+# Assina cada nova versão da interface (updates/<edição>/pending.json) como versão de TESTES.
+# Só a recebem as instalações com um código de testes. Não gasta créditos (repositório público).
+name: Assinar testes
+on:
+  push:
+    branches: [main]
+    paths: ['updates/*/pending.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: updates, cancel-in-progress: false }
+jobs:
+  sign:
+    if: github.repository == 'sergi-bermudez/mq-plugins' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assinar
+        env: { MQ_SIGN_KEY: '${{ secrets.MQ_SIGN_KEY }}' }
+        run: node .github/mqsign.js test
+      - name: Guardar
+        run: |
+          git config user.name "mq-updates"; git config user.email "mq-updates@users.noreply.github.com"
+          git add -A updates
+          git diff --cached --quiet || (git commit -m "Atualização de testes assinada" && git push)

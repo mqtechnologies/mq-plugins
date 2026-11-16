@@ -1,0 +1,33 @@
+# Publicar para TODAS as escolas a versão que está em testes (ou voltar à estável anterior).
+# Corre-se à mão: Actions › «Publicar estável» › Run workflow (também na app do GitHub no telemóvel).
+name: Publicar estável
+on:
+  workflow_dispatch:
+    inputs:
+      edicao:
+        description: 'Edição'
+        type: choice
+        options: [all, pro, free, junior]
+        default: all
+      acao:
+        description: 'publicar = a versão de testes passa a estável · voltar-atras = todas voltam à estável anterior'
+        type: choice
+        options: [publicar, voltar-atras]
+        default: publicar
+permissions:
+  contents: write
+concurrency: { group: updates, cancel-in-progress: false }
+jobs:
+  publish:
+    if: github.repository == 'sergi-bermudez/mq-plugins' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assinar
+        env: { MQ_SIGN_KEY: '${{ secrets.MQ_SIGN_KEY }}' }
+        run: node .github/mqsign.js ${{ inputs.acao == 'voltar-atras' && 'rollback' || 'stable' }} ${{ inputs.edicao }}
+      - name: Guardar
+        run: |
+          git config user.name "mq-updates"; git config user.email "mq-updates@users.noreply.github.com"
+          git add -A updates
+          git diff --cached --quiet || (git commit -m "Estável: ${{ inputs.acao }} (${{ inputs.edicao }})" && git push)
