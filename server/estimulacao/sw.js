@@ -1,0 +1,6 @@
+const V='mqapp1o2y491-mwjqjowo';const CORE=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V&&k.startsWith('mqapp1o2y491-')).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
+self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(/(\.mqs|mqserver\.json)$/.test(u.pathname))return;
+ if(u.origin===location.origin&&(r.mode==='navigate'||/\.(html|webmanifest)$/.test(u.pathname))){e.respondWith(fetch(r).then(n=>{const c=n.clone();caches.open(V).then(x=>x.put(r.mode==='navigate'?'index.html':r,c));return n}).catch(()=>caches.match(r.mode==='navigate'?'index.html':r,{ignoreSearch:true})));return}
+ if(u.origin===location.origin||/fonts\.(googleapis|gstatic)\.com$/.test(u.hostname))e.respondWith(caches.match(r).then(x=>x||fetch(r).then(n=>{if(n&&(n.ok||n.type==='opaque')){const c=n.clone();caches.open(V).then(y=>y.put(r,c))}return n})))});

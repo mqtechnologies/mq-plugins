@@ -1,8 +1,6 @@
-Jogos MQ · MQ Server
+Jogos MQ · coleção de MQ Servers
 
-App feita com MQ Creator Pro 4.8 · 2026.
-Made with the Musiquence game engine: AI-driven, science-backed no-code tools for interactive, people-centred experiences.
+- Jogos de Estimulação Cognitiva: estimulacao/
+- Jogos para o desenvolvimento: kids/
 
-Endereço: https://sergi-bermudez.github.io/mq-plugins/server/
-No MQ Creator: Galeria › Ligar a um MQ Server.
-Os jogos estão cifrados em data/*.mqs.
+No MQ Creator: Galeria › Ligar a um MQ Server com https://sergi-bermudez.github.io/mq-plugins/server/ junta os dois servidores à galeria.
