@@ -5,46 +5,46 @@
   {
    "id": "com.musiquence.paint",
    "name": "MQ Paint",
-   "version": "1.5.4",
+   "version": "1.5.5",
    "description": "Colour a drawing made from an image or from geometric shapes (or a blank sheet); print it",
    "icon": "🎨",
    "author": "Musiquence",
-   "file": "plugins/Paint-1.5.4.zip",
-   "size": 138393,
-   "sha256": "64b50e3f16eaf570a9d2158ed581ea14ca627960c0b2f0bfc48c6f47440a7f4a"
+   "file": "plugins/Paint-1.5.5.zip",
+   "size": 178785,
+   "sha256": "7b64f78fdba2fd8a4b4c88cff5a591ffd1ea3113f41c82d30ebb67d3374bac51"
   },
   {
    "id": "com.musiquence.explorer3d",
    "name": "MQ 3D Blocks",
-   "version": "2.13.4",
+   "version": "2.13.5",
    "description": "First-person 3D level made in a grid editor: collect objects, answer questions, keys and doors, hints, reach the exit",
    "icon": "🏰",
    "author": "Musiquence",
-   "file": "plugins/Explorer3D-2.13.4.zip",
-   "size": 413698,
-   "sha256": "b1f33a59ef5f7d1010abf01e7b6be8fd31a344328c371d85623aaac58c532e42"
+   "file": "plugins/Explorer3D-2.13.5.zip",
+   "size": 585327,
+   "sha256": "f1da31a55163f63c4b313f6557fe8763be676fcd0d128396c4d401c6d3e5baff"
   },
   {
    "id": "com.musiquence.videoquiz",
    "name": "MQ Forms",
-   "version": "2.2.3",
+   "version": "2.2.4",
    "description": "Formulário com vídeo: escolha única ou múltipla, texto, número, escala, data, imagens e vídeos, saltos conforme a resposta, pontuação",
    "icon": "📝",
    "author": "Musiquence",
-   "file": "plugins/VideoQuiz-2.2.3.zip",
-   "size": 142046,
-   "sha256": "e5ae5ef41ddd5164bc3c1281392f1138ab903c0467d932d3ca649aaed282aa05"
+   "file": "plugins/VideoQuiz-2.2.4.zip",
+   "size": 184660,
+   "sha256": "2c755146a8e6d51800289197435255940d8c89517d2c1c3e12a351fb4a141ac0"
   },
   {
    "id": "com.neurorehablab.taskgenerator",
    "name": "Task Generator",
-   "version": "2.0.3",
+   "version": "2.0.4",
    "description": "Task Generator: 11 cognitive tasks generated from a cognitive profile or from their variables; adaptive (difficulty ±0.5)",
    "icon": "🧠",
    "author": "NeuroRehabLab",
-   "file": "plugins/TaskGenerator-2.0.3.zip",
-   "size": 9008119,
-   "sha256": "bcb3c44648dd63b0bc34fe71fb215fdbef6dd03a41f15625905dc806796cdac6"
+   "file": "plugins/TaskGenerator-2.0.4.zip",
+   "size": 9200241,
+   "sha256": "ded61745f901806ed536f63c1c264ade20e270ba513a0a277c1c6ef6fdaee553"
   }
  ]
 }
