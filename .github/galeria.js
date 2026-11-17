@@ -11,7 +11,8 @@ const ROOT = path.join(__dirname, '..'), G = path.join(ROOT, 'galeria'), CAT = p
 const REPO = process.env.GITHUB_REPOSITORY || 'sergi-bermudez/mq-plugins', TOKEN = process.env.GITHUB_TOKEN || '';
 const API = 'https://api.github.com/repos/' + REPO;
 const MAXF = 100 * 1024 * 1024;
-const TIPOS = { 'Atividade': 'app', 'Modelo editável': 'tpl', 'MQ Server': 'srv', 'Plugin': 'plugin' };
+/* por agora só apps e modelos (MQ Servers e plugins ficam de fora da galeria comunitária) */
+const TIPOS = { 'Atividade': 'app', 'Modelo editável': 'tpl' };
 
 /* ---------- formulário ---------- */
 function parseForm(body) {

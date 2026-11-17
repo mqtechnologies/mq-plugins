@@ -1,6 +1,6 @@
 # Galeria comunitária do MQ Creator
 
-Apps, modelos editáveis, MQ Servers e plugins partilhados por quem usa o MQ Creator.
+Apps e modelos editáveis partilhados por quem usa o MQ Creator.
 
 - **Ver e descarregar:** no MQ Creator, Galeria › Galeria comunitária (sem conta).
 - **Publicar:** no MQ Creator, «Publicar» prepara os ficheiros e abre o formulário; ou diretamente em

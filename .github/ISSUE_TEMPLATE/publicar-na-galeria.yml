@@ -1,5 +1,5 @@
 name: "🌍 Publicar na galeria comunitária"
-description: "Partilhe uma app, um modelo editável, um MQ Server ou um plugin feito com o MQ Creator. Fica publicado logo, com o seu nome."
+description: "Partilhe uma app ou um modelo editável feito com o MQ Creator. Fica publicado logo, com o seu nome."
 title: "Nome da app"
 labels: ["galeria"]
 body:
@@ -18,8 +18,6 @@ body:
       options:
         - Atividade
         - Modelo editável
-        - MQ Server
-        - Plugin
     validations: { required: true }
   - type: dropdown
     id: areas
@@ -67,16 +65,11 @@ body:
       label: Licença
       options: ["CC BY 4.0", "CC BY-SA 4.0", "CC BY-NC 4.0", "CC0 (domínio público)", "Todos os direitos reservados"]
     validations: { required: true }
-  - type: input
-    id: servidor
-    attributes:
-      label: Endereço do MQ Server
-      description: "Só para o tipo «MQ Server» (ex.: https://utilizador.github.io/repositorio/servidor/)"
   - type: textarea
     id: ficheiros
     attributes:
       label: Ficheiros
-      description: "Arraste para aqui: o .mqx (editável), a build (.html ou .zip), a imagem de capa (.png/.jpg) ou o plugin (.zip)."
+      description: "Arraste para aqui: o .mqx (editável), a build (.html ou .zip) e a imagem de capa (.png/.jpg)."
   - type: checkboxes
     id: direitos
     attributes:
