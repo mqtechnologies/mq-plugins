@@ -195,7 +195,7 @@ async function counts(c) {
   for (const e of c.apps) {
     let d = 0; for (const r of rels) if (r.tag_name.startsWith(`g${e.id}-v`)) for (const a of r.assets || []) d += a.download_count || 0;
     e.downloads = d;
-    try { const i = await gh('/issues/' + e.id); e.likes = (i.reactions && i.reactions['+1']) || 0; e.comments = i.comments || 0; if (i.state === 'closed') e._closed = true;
+    try { const i = await gh('/issues/' + e.id); e.likes = (i.reactions && i.reactions['+1']) || 0; /* sem contar as mensagens do próprio robô da galeria */ let cs = []; if (i.comments) { try { cs = await ghAll('/issues/' + e.id + '/comments'); } catch (x) { cs = []; } } e.comments = cs.filter((x) => !(x.user && (x.user.type === 'Bot' || /\[bot\]$/.test(x.user.login)))).length; if (i.state === 'closed') e._closed = true;
       e.destacada = (i.labels || []).some((l) => (l.name || l) === 'destacada'); } catch (x) { console.log(x.message); }
     e.remixes = c.apps.filter((x) => x.base && x.base.id === e.id).length;
     e.score = score(e) + 3 * e.remixes;
