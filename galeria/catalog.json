@@ -73,6 +73,81 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g10-v1",
+     "date": "2026-11-17T19:04:41.117Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Subtracoes.mqx",
+       "size": 8281246,
+       "asset": 760273078,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8121,
+       "asset": 760273132,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T19:04:39.779Z",
+   "id": 10,
+   "title": "Subtrações",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "subtrações",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/10",
+   "updated": "2026-11-17T19:04:39.779Z",
+   "previews": [
+    "galeria/f/10/v1/prev1.jpg",
+    "galeria/f/10/v1/prev2.jpg"
+   ],
+   "ecras": 99,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/10/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g9-v1",
      "date": "2026-11-17T19:03:57.685Z",
      "src": [
@@ -664,5 +739,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T19:04:02.993Z"
+ "updated": "2026-11-17T19:04:47.893Z"
 }
