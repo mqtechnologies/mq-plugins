@@ -73,6 +73,80 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g3-v1",
+     "date": "2026-11-17T18:59:32.024Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Buscaminas.mqx",
+       "size": 8021849,
+       "asset": 760257121,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g3-v1/Buscaminas.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8565,
+       "asset": 760257183,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g3-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T18:59:30.686Z",
+   "id": 3,
+   "title": "Buscaminas",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "funções executivas",
+    "raciocínio",
+    "lógica",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Buscaminas com tabuleiros cada vez maiores: usar os números para deduzir onde estão as minas. Treina raciocínio lógico, planeamento e flexibilidade cognitiva. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/3",
+   "updated": "2026-11-17T18:59:30.686Z",
+   "previews": [
+    "galeria/f/3/v1/prev1.jpg",
+    "galeria/f/3/v1/prev2.jpg"
+   ],
+   "ecras": 38,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/3/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g2-v1",
      "date": "2026-11-17T18:57:00.636Z",
      "src": [
@@ -144,5 +218,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T18:59:00.596Z"
+ "updated": "2026-11-17T18:59:36.451Z"
 }
