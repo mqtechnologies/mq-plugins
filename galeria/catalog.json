@@ -73,6 +73,81 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g9-v1",
+     "date": "2026-11-17T19:03:57.685Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Somas.mqx",
+       "size": 9228491,
+       "asset": 760271327,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g9-v1/Somas.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8318,
+       "asset": 760271397,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g9-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T19:03:56.268Z",
+   "id": 9,
+   "title": "Somas",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "somas",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Somas com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/9",
+   "updated": "2026-11-17T19:03:56.268Z",
+   "previews": [
+    "galeria/f/9/v1/prev1.jpg",
+    "galeria/f/9/v1/prev2.jpg"
+   ],
+   "ecras": 102,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/9/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g8-v1",
      "date": "2026-11-17T19:03:09.902Z",
      "src": [
@@ -589,5 +664,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T19:03:16.329Z"
+ "updated": "2026-11-17T19:04:02.993Z"
 }
