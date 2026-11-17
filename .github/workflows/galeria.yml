@@ -3,7 +3,7 @@
 name: Galeria comunitária
 on:
   issues:
-    types: [opened, edited, reopened, closed, labeled]
+    types: [opened, edited, reopened, closed]
   issue_comment:
     types: [created, deleted]
   schedule:

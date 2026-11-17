@@ -111,7 +111,8 @@ async function publish(issue, sender, c) {
   Object.assign(e, meta, { updated: new Date().toISOString() });
   if (newVersion) {
     const k = e.versions.length + 1, tag = `g${n}-v${k}`, dir = path.join(G, 'f', String(n), 'v' + k); fs.mkdirSync(dir, { recursive: true });
-    const rel = await gh('/releases', { method: 'POST', body: JSON.stringify({ tag_name: tag, target_commitish: 'main', name: `${e.title} · v${k}`, body: `Galeria comunitária · ${e.url}\nAutor: @${e.autor.login} · Licença: ${e.licenca || '—'}`, prerelease: false, make_latest: 'false' }) });
+    let rel; try { rel = await gh('/releases/tags/' + tag); for (const x of rel.assets || []) await gh('/releases/assets/' + x.id, { method: 'DELETE' }); } catch (x) { rel = null; }
+    if (!rel) rel = await gh('/releases', { method: 'POST', body: JSON.stringify({ tag_name: tag, target_commitish: 'main', name: `${e.title} · v${k}`, body: `Galeria comunitária · ${e.url}\nAutor: @${e.autor.login} · Licença: ${e.licenca || '—'}`, prerelease: false, make_latest: 'false' }) });
     const v = { v: k, tag, date: new Date().toISOString(), src: newVersion.src, files: {} };
     const slug = (e.title.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\w]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'app');
     for (const [role, x] of [['mqx', newVersion.mqx], ['build', newVersion.build], ['plugin', newVersion.plug], ['img', newVersion.img]]) {
