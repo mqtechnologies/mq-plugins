@@ -38,13 +38,13 @@
   {
    "id": "com.neurorehablab.taskgenerator",
    "name": "Task Generator",
-   "version": "2.0.9",
+   "version": "2.0.10",
    "description": "Task Generator: 11 cognitive tasks generated from a cognitive profile or from their variables; adaptive (difficulty ±0.5)",
    "icon": "🧠",
    "author": "NeuroRehabLab",
-   "file": "plugins/TaskGenerator-2.0.9.zip",
-   "size": 9211872,
-   "sha256": "5105e3536b545e93ec203d0ccd52b8b5e4a2bf618ce8c1df5ac97988cfbb820c"
+   "file": "plugins/TaskGenerator-2.0.10.zip",
+   "size": 9211970,
+   "sha256": "ab0a8e9917dc984372794e47708544940f673414206c3e4329aafd600c8a167d"
   }
  ]
 }
