@@ -25,7 +25,9 @@ function parseForm(body) {
     areas: list(out['Áreas']), etiquetas: list(out['Etiquetas']).map((x) => x.toLowerCase()).slice(0, 12),
     descricao: (out['Descrição'] || '').slice(0, 2000), linguas: list(out['Língua']), idade: list(out['Idade']),
     licenca: (out['Licença'] || '').trim(), servidor: (out['Endereço do MQ Server'] || '').trim(),
-    ficheiros: anexos(out['Ficheiros'] || '')
+    ficheiros: anexos(out['Ficheiros'] || ''),
+    baseada: +(String(out['Baseada em'] || '').match(/(?:#|issues\/)(\d+)/) || [])[1] || 0,
+    notas: (out['Notas desta versão'] || '').slice(0, 600)
   };
 }
 /* só ficheiros anexados ao GitHub (ou já neste repositório): nunca endereços quaisquer */
@@ -60,6 +62,36 @@ function kindOf(b, name) {
   const head = b.slice(0, 2048).toString('utf8').toLowerCase();
   if (/<!doctype html|<html/.test(head) || /\.html?$/i.test(name)) return { k: 'build', ext: 'html' };
   return { k: '?', ext: 'bin' };
+}
+
+/* ---------- o que vem dentro do .mqx ---------- */
+const zlib = require('zlib');
+function zipRead(b, want) {
+  let e = -1; for (let i = b.length - 22; i >= Math.max(0, b.length - 65557); i--) if (b.readUInt32LE(i) === 0x06054b50) { e = i; break; }
+  if (e < 0) return null; const n = b.readUInt16LE(e + 10); let p = b.readUInt32LE(e + 16);
+  for (let k = 0; k < n && p + 46 <= b.length; k++) {
+    const meth = b.readUInt16LE(p + 10), csz = b.readUInt32LE(p + 20), fl = b.readUInt16LE(p + 28), xl = b.readUInt16LE(p + 30), cl = b.readUInt16LE(p + 32), off = b.readUInt32LE(p + 42);
+    const name = b.slice(p + 46, p + 46 + fl).toString('utf8'); p += 46 + fl + xl + cl;
+    if (!want(name)) continue; const lfl = b.readUInt16LE(off + 26), lxl = b.readUInt16LE(off + 28); const data = b.slice(off + 30 + lfl + lxl, off + 30 + lfl + lxl + csz);
+    return { name, data: meth === 8 ? zlib.inflateRawSync(data) : data };
+  }
+  return null;
+}
+const EV = (x) => Array.isArray(x) ? x : (x && Array.isArray(x.$values) ? x.$values : []);
+/* ecrãs, tipos, plugins, câmara/movimento e até 3 imagens grandes para pré-visualização */
+function mqxInfo(b) {
+  const info = { ecras: 0, plugins: [], camara: false, previews: [] };
+  try {
+    const mq = zipRead(b, (n) => /\.mq$/i.test(n)); if (!mq) return info;
+    const t = mq.data.toString('utf8').replace(/^\uFEFF/, ''); const d = JSON.parse(t);
+    const acts = EV(d.Activities); info.ecras = acts.filter((a) => !/CoffeBreak/.test(a.$type || '')).length;
+    info.plugins = [...new Set([...t.matchAll(/"MqPlugin"\s*:\s*"([^"]+)"/g)].map((m) => m[1]))].slice(0, 6);
+    info.camara = /Gesture|Kinect|BodyTrack|Pose|Camera|Exergame|HeadTrack/i.test(acts.map((a) => a.$type || '').join(' ')) || /"(UseCamera|BodyTracking|HeadControl)"\s*:\s*true/.test(t);
+    /* imagens de fundo médias (nem ícones nem gigantes), sem repetidas */
+    const imgs = [...new Set(Object.values(d.ImageData || {}).filter((v) => typeof v === 'string' && v.length > 40000 && v.length < 1100000))].sort((x, y) => y.length - x.length).slice(0, 3);
+    info.previews = imgs.map((v) => { const buf = Buffer.from(v, 'base64'); return { b: buf, ext: buf[0] === 0xff ? 'jpg' : 'png' }; });
+  } catch (x) { console.log('mqx:', x.message); }
+  return info;
 }
 
 /* ---------- GitHub ---------- */
@@ -109,6 +141,8 @@ async function publish(issue, sender, c) {
   if (errs.length) { await comment(n, '⚠️ **Não publiquei** esta versão:\n\n' + errs.map((x) => '- ' + x).join('\n') + '\n\nCorrija editando o pedido (os ficheiros vão na caixa «Ficheiros»).'); if (!e) return c; }
   if (!e && !newVersion && f.tipo !== 'srv') { if (!srcNow.length) await comment(n, '⚠️ Ainda não há ficheiros. Edite o pedido e arraste o .mqx, a build ou o plugin para a caixa «Ficheiros».'); return c; }
   if (!e) { e = Object.assign({ versions: [], downloads: 0, likes: 0, comments: 0, created: new Date().toISOString() }, meta); c.apps.push(e); }
+  /* «remix»: baseada noutra app da galeria (homenagem ao autor original) */
+  if (f.baseada && f.baseada !== n) { const o = c.apps.find((x) => x.id === f.baseada); if (o) meta.base = { id: o.id, title: o.title, autor: o.autor.login }; }
   Object.assign(e, meta, { updated: new Date().toISOString() });
   if (newVersion) {
     const k = e.versions.length + 1, tag = `g${n}-v${k}`, dir = path.join(G, 'f', String(n), 'v' + k); fs.mkdirSync(dir, { recursive: true });
@@ -122,7 +156,10 @@ async function publish(issue, sender, c) {
       const copy = path.join(dir, fname + (role === 'img' ? '' : '.bin')); fs.writeFileSync(copy, x.b);
       v.files[role] = { name: fname, size: x.b.length, asset: up.id, url: up.browser_download_url, copy: path.relative(ROOT, copy).split(path.sep).join('/') };
     }
-    if (v.files.img) e.thumb = v.files.img.copy;
+    if (newVersion.mqx) { const inf = mqxInfo(newVersion.mqx.b); e.ecras = inf.ecras; e.plugins = inf.plugins; e.camara = inf.camara; e.previews = [];
+      inf.previews.forEach((pv, i) => { const fp = path.join(dir, `prev${i + 1}.${pv.ext}`); fs.writeFileSync(fp, pv.b); e.previews.push(path.relative(ROOT, fp).split(path.sep).join('/')); }); }
+    if (f.notas) v.notas = f.notas;
+    if (v.files.img) e.thumb = v.files.img.copy; else if (!e.thumb && e.previews && e.previews.length) e.thumb = e.previews[0];
     e.editable = !!v.files.mqx || (e.tipo === 'tpl'); e.versions.push(v);
     await labels(n, ['galeria', 'publicada']);
     await comment(n, `✅ **Publicada** na galeria comunitária (versão ${k}).\n\n${v.files.mqx ? '✏️ Editável (.mqx)' : '▶️ Só para jogar (sem .mqx)'} · ficheiros: ${Object.values(v.files).map((x) => x.name).join(', ')}\n\nPara uma nova versão, edite o pedido e junte os ficheiros novos. Para retirar, feche o pedido.`);
@@ -140,8 +177,12 @@ async function counts(c) {
   for (const e of c.apps) {
     let d = 0; for (const r of rels) if (r.tag_name.startsWith(`g${e.id}-v`)) for (const a of r.assets || []) d += a.download_count || 0;
     e.downloads = d;
-    try { const i = await gh('/issues/' + e.id); e.likes = (i.reactions && i.reactions['+1']) || 0; e.comments = i.comments || 0; if (i.state === 'closed') e._closed = true; } catch (x) { console.log(x.message); }
-    e.score = score(e);
+    try { const i = await gh('/issues/' + e.id); e.likes = (i.reactions && i.reactions['+1']) || 0; e.comments = i.comments || 0; if (i.state === 'closed') e._closed = true;
+      e.destacada = (i.labels || []).some((l) => (l.name || l) === 'destacada'); } catch (x) { console.log(x.message); }
+    e.remixes = c.apps.filter((x) => x.base && x.base.id === e.id).length;
+    e.score = score(e) + 3 * e.remixes;
+    /* tendência: a popularidade pesa menos com a idade (as novas com boa receção sobem) */
+    const dias = Math.max(0, (Date.now() - Date.parse(e.created || e.updated || Date.now())) / 864e5); e.trend = Math.round(e.score / Math.sqrt(dias + 2) * 100) / 100;
   }
   c.apps = c.apps.filter((x) => !x._closed); return c;
 }

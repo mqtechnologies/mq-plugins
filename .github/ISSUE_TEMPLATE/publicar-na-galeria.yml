@@ -70,10 +70,22 @@ body:
     attributes:
       label: Ficheiros
       description: "Arraste para aqui: o .mqx (editável), a build (.html ou .zip) e a imagem de capa (.png/.jpg)."
+  - type: input
+    id: notas
+    attributes:
+      label: Notas desta versão
+      description: "O que mudou (só para versões novas)."
+  - type: input
+    id: baseada
+    attributes:
+      label: Baseada em
+      description: "Se partiu de outra app da galeria: o número dela (ex.: #12). Dá crédito ao autor original."
   - type: checkboxes
     id: direitos
     attributes:
       label: Direitos
       options:
         - label: "Fiz este conteúdo (ou tenho autorização) e posso partilhá-lo com esta licença."
+          required: true
+        - label: "Não contém dados pessoais (nomes, fotos ou vozes de pacientes/alunos, resultados, contactos)."
           required: true
