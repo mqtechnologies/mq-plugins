@@ -73,6 +73,79 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g4-v1",
+     "date": "2026-11-17T19:00:28.080Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Toupeiras.mqx",
+       "size": 3520268,
+       "asset": 760260030,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/Toupeiras.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8813,
+       "asset": 760260079,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T19:00:26.711Z",
+   "id": 4,
+   "title": "Toupeiras",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "velocidade de processamento",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Tocar nas toupeiras que aparecem, com cada vez mais velocidade e distrações a cada nível. Treina atenção sustentada e seletiva e velocidade de processamento. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/4",
+   "updated": "2026-11-17T19:00:26.711Z",
+   "previews": [
+    "galeria/f/4/v1/prev1.jpg",
+    "galeria/f/4/v1/prev2.jpg"
+   ],
+   "ecras": 239,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/4/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g3-v1",
      "date": "2026-11-17T18:59:32.024Z",
      "src": [
@@ -218,5 +291,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T18:59:36.451Z"
+ "updated": "2026-11-17T19:00:33.087Z"
 }
