@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "plugins": [
   {
    "id": "com.musiquence.paint",
@@ -16,35 +16,35 @@
   {
    "id": "com.musiquence.explorer3d",
    "name": "MQ 3D Blocks",
-   "version": "2.13.8",
+   "version": "2.13.9",
    "description": "First-person 3D level made in a grid editor: collect objects, answer questions, keys and doors, hints, reach the exit",
    "icon": "🏰",
    "author": "Musiquence",
-   "file": "plugins/Explorer3D-2.13.8.zip",
-   "size": 585940,
-   "sha256": "9c957cc97d73b3549ff70114197854b774a1849b3fa84fcb5f117bcf5eb70f22"
+   "file": "plugins/Explorer3D-2.13.9.zip",
+   "size": 586379,
+   "sha256": "6ed195215e0c5c225b58756115e26d68777874148bbce8f15504c8c0f6f308b0"
   },
   {
    "id": "com.musiquence.videoquiz",
    "name": "MQ Forms",
-   "version": "2.2.5",
+   "version": "2.2.6",
    "description": "Formulário com vídeo: escolha única ou múltipla, texto, número, escala, data, imagens e vídeos, saltos conforme a resposta, pontuação",
    "icon": "📝",
    "author": "Musiquence",
-   "file": "plugins/VideoQuiz-2.2.5.zip",
-   "size": 185410,
-   "sha256": "96e09778a74723ed4b46855e8010f8b8fd836e9ea30a16f8876672406b40a370"
+   "file": "plugins/VideoQuiz-2.2.6.zip",
+   "size": 185481,
+   "sha256": "543264ffd3680bc03356632ed4b61186f26e0e68a6d58ddd3116ca7b08c740ad"
   },
   {
    "id": "com.neurorehablab.taskgenerator",
    "name": "Task Generator",
-   "version": "2.0.6",
+   "version": "2.0.7",
    "description": "Task Generator: 11 cognitive tasks generated from a cognitive profile or from their variables; adaptive (difficulty ±0.5)",
    "icon": "🧠",
    "author": "NeuroRehabLab",
-   "file": "plugins/TaskGenerator-2.0.6.zip",
-   "size": 9207731,
-   "sha256": "baee7f8a572b2eec55871f2a9bdc7d557731eb04ea3bfb4ac3651ebd590eaa72"
+   "file": "plugins/TaskGenerator-2.0.7.zip",
+   "size": 9210926,
+   "sha256": "382276f897210bccee7025ffbb8bec95537c5fb03dbe5ebee051e6d70bd81e88"
   }
  ]
 }
