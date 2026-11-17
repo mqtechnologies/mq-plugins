@@ -27,13 +27,13 @@
   {
    "id": "com.musiquence.videoquiz",
    "name": "MQ Forms",
-   "version": "2.3.0",
+   "version": "2.3.1",
    "description": "Formulário com vídeo: escolha única ou múltipla, texto, número, escala, data, imagens e vídeos, saltos conforme a resposta, pontuação; assistente: modelos prontos, rascunho por IA local e digitalização de uma fotografia",
    "icon": "📝",
    "author": "Musiquence",
-   "file": "plugins/VideoQuiz-2.3.0.zip",
-   "size": 250099,
-   "sha256": "c2fe55fbf2597b3f605a36c62571f6f9605048f7c106f00a9c224a3c21d6ddde"
+   "file": "plugins/VideoQuiz-2.3.1.zip",
+   "size": 261232,
+   "sha256": "08954c09dd84da6ed410f2f208676550d5fdeec894cc4f22789a8ea751e4477d"
   },
   {
    "id": "com.neurorehablab.taskgenerator",
