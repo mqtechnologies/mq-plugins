@@ -1,5 +1,64 @@
 {
  "v": 1,
- "apps": [],
- "updated": "2026-11-17T05:42:17.971Z"
+ "apps": [
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g1-v1",
+     "date": "2026-11-17T05:47:38.697Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/main/galeria/teste/teste.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/main/galeria/teste/capa.png"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Teste-da-galeria.mqx",
+       "size": 29850,
+       "asset": 757818898,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g1-v1/Teste-da-galeria.mqx",
+       "copy": "galeria/f/1/v1/Teste-da-galeria.mqx.bin"
+      },
+      "img": {
+       "name": "capa.png",
+       "size": 109400,
+       "asset": 757818968,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g1-v1/capa.png",
+       "copy": "galeria/f/1/v1/capa.png"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T05:47:37.439Z",
+   "id": 1,
+   "title": "Teste da galeria",
+   "tipo": "app",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "teste"
+   ],
+   "descricao": "Entrada de teste da galeria comunitária (vai ser retirada).",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [],
+   "licenca": "CC BY 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/1",
+   "updated": "2026-11-17T05:47:37.512Z",
+   "thumb": "galeria/f/1/v1/capa.png",
+   "editable": true,
+   "score": 3
+  }
+ ],
+ "updated": "2026-11-17T05:47:42.234Z"
 }
