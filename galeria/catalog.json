@@ -1,5 +1,80 @@
 {
  "v": 1,
- "apps": [],
- "updated": "2026-11-17T16:07:23.662Z"
+ "apps": [
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g2-v1",
+     "date": "2026-11-17T18:57:00.636Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Batalha-Naval.mqx",
+       "size": 6256830,
+       "asset": 760249831,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g2-v1/Batalha-Naval.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 9224,
+       "asset": 760249876,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g2-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T18:56:59.292Z",
+   "id": 2,
+   "title": "Batalha Naval",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "funções executivas",
+    "planeamento",
+    "memória de trabalho",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Jogo de batalha naval com níveis progressivos: descobrir onde estão os barcos, planeando cada tiro e lembrando as posições já tentadas. Treina funções executivas (planeamento, memória de trabalho, raciocínio). Modelo editável: pode mudar níveis, imagens e textos.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/2",
+   "updated": "2026-11-17T18:56:59.292Z",
+   "previews": [
+    "galeria/f/2/v1/prev1.jpg",
+    "galeria/f/2/v1/prev2.jpg"
+   ],
+   "ecras": 41,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/2/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  }
+ ],
+ "updated": "2026-11-17T18:57:04.862Z"
 }
