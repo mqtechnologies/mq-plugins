@@ -90,11 +90,19 @@ function mqxInfo(b) {
     info.plugins = [...new Set([...t.matchAll(/"MqPlugin"\s*:\s*"([^"]+)"/g)].map((m) => m[1]))].slice(0, 6);
     info.camara = /Gesture|Kinect|BodyTrack|Pose|Camera|Exergame|HeadTrack/i.test(acts.map((a) => a.$type || '').join(' ')) || /"(UseCamera|BodyTracking|HeadControl)"\s*:\s*true/.test(t);
     /* imagens de fundo médias (nem ícones nem gigantes), sem repetidas */
-    const imgs = [...new Set(Object.values(d.ImageData || {}).filter((v) => typeof v === 'string' && v.length > 40000 && v.length < 1100000))].sort((x, y) => y.length - x.length).slice(0, 3);
+    const imgs = [...new Set(Object.values(d.ImageData || {}).filter((v) => typeof v === 'string' && v.length > 40000 && v.length < (sharp ? 12e6 : 330000)))].sort((x, y) => y.length - x.length).slice(0, 3);
     info.previews = imgs.map((v) => { const buf = Buffer.from(v, 'base64'); return { b: buf, ext: buf[0] === 0xff ? 'jpg' : 'png' }; });
   } catch (x) { console.log('mqx:', x.message); }
   return info;
 }
+
+/* imagens pequenas para o repositório (capa ~640 px, pré-visualizações ~960 px, JPEG). Sem sharp: só se já forem pequenas. */
+let sharp = null; try { sharp = require('sharp'); } catch (x) { console.log('sem sharp: imagens só se forem pequenas'); }
+async function small(b, w) {
+  if (sharp) { try { return await sharp(b).rotate().resize({ width: w, withoutEnlargement: true }).flatten({ background: '#ffffff' }).jpeg({ quality: 78, mozjpeg: true }).toBuffer(); } catch (x) { console.log('imagem:', x.message); } }
+  return b.length <= 250 * 1024 ? b : null;
+}
+const imgExt = (b) => (b[0] === 0xff ? 'jpg' : b[0] === 0x89 ? 'png' : b[0] === 0x52 ? 'webp' : 'jpg');
 
 /* ---------- GitHub ---------- */
 async function gh(p, o = {}) {
@@ -157,13 +165,19 @@ async function publish(issue, sender, c) {
     for (const [role, x] of [['mqx', newVersion.mqx], ['build', newVersion.build], ['plugin', newVersion.plug], ['img', newVersion.img]]) {
       if (!x) continue; const fname = role === 'img' ? `capa.${x.ext}` : `${slug}${role === 'build' ? '-build' : ''}.${x.ext}`;
       const up = await gh(`https://uploads.github.com/repos/${REPO}/releases/${rel.id}/assets?name=${encodeURIComponent(fname)}`, { method: 'POST', body: x.b, headers: { 'Content-Type': 'application/octet-stream' } });
-      const copy = path.join(dir, fname + (role === 'img' ? '' : '.bin')); fs.writeFileSync(copy, x.b);
-      v.files[role] = { name: fname, size: x.b.length, asset: up.id, url: up.browser_download_url, copy: path.relative(ROOT, copy).split(path.sep).join('/') };
+      /* o ficheiro fica só na release (não pesa no repositório); «src» é a origem, usada como reserva pelo navegador */
+      const src = (f.ficheiros.find((a) => a.name === x.name) || {}).url || '';
+      v.files[role] = { name: fname, size: x.b.length, asset: up.id, url: up.browser_download_url, src };
     }
-    if (newVersion.mqx) { const inf = mqxInfo(newVersion.mqx.b); e.ecras = inf.ecras; e.plugins = inf.plugins; e.camara = inf.camara; e.previews = [];
-      inf.previews.forEach((pv, i) => { const fp = path.join(dir, `prev${i + 1}.${pv.ext}`); fs.writeFileSync(fp, pv.b); e.previews.push(path.relative(ROOT, fp).split(path.sep).join('/')); }); }
+    /* no repositório só ficam imagens pequenas da última versão */
+    fs.rmSync(path.join(G, 'f', String(n)), { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
+    const rel_ = (fp) => path.relative(ROOT, fp).split(path.sep).join('/');
+    const put = async (b, name, w) => { const s = await small(b, w); if (!s) return ''; const fp = path.join(dir, name + '.' + imgExt(s)); fs.writeFileSync(fp, s); return rel_(fp); };
+    e.previews = [];
+    if (newVersion.mqx) { const inf = mqxInfo(newVersion.mqx.b); e.ecras = inf.ecras; e.plugins = inf.plugins; e.camara = inf.camara;
+      for (const [i, pv] of inf.previews.slice(0, 2).entries()) { const r = await put(pv.b, 'prev' + (i + 1), 960); if (r) e.previews.push(r); } }
     if (f.notas) v.notas = f.notas;
-    if (v.files.img) e.thumb = v.files.img.copy; else if (!e.thumb && e.previews && e.previews.length) e.thumb = e.previews[0];
+    e.thumb = (newVersion.img && await put(newVersion.img.b, 'capa', 640)) || (newVersion.mqx && e.previews[0]) || '';
     e.editable = !!v.files.mqx || (e.tipo === 'tpl'); e.versions.push(v);
     await labels(n, ['galeria', 'publicada']);
     await comment(n, `✅ **Publicada** na galeria comunitária (versão ${k}).\n\n${v.files.mqx ? '✏️ Editável (.mqx)' : '▶️ Só para jogar (sem .mqx)'} · ficheiros: ${Object.values(v.files).map((x) => x.name).join(', ')}\n\nPara uma nova versão, edite o pedido e junte os ficheiros novos. Para retirar, feche o pedido.`);

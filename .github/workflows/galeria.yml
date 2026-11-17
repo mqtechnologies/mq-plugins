@@ -19,8 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # sharp: reduz capas e pré-visualizações (só elas ficam no repositório; os jogos ficam nas releases)
+      - name: Imagens
+        if: github.event_name == 'issues'
+        run: npm install --silent --no-audit --no-fund --prefix "$RUNNER_TEMP/n" sharp@0.33.5 || true
       - name: Galeria
-        env: { GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+        env: { GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}', NODE_PATH: '${{ runner.temp }}/n/node_modules' }
         run: node .github/galeria.js
       - name: Guardar
         run: |
