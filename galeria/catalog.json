@@ -5,6 +5,74 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g12-v1",
+     "date": "2026-11-17T18:58:54.821Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Monstros-da-Atencao-build.zip",
+       "size": 84181575,
+       "asset": 760255363,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 14990,
+       "asset": 760255617,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 2,
+   "created": "2026-11-17T18:58:53.870Z",
+   "id": 12,
+   "title": "Monstros da Atenção",
+   "tipo": "app",
+   "areas": [
+    "Infantil",
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "crianças",
+    "mq kids"
+   ],
+   "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos",
+    "7–12 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/12",
+   "updated": "2026-11-17T18:58:53.870Z",
+   "previews": [],
+   "thumb": "galeria/f/12/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4,
+   "trend": 2.83
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g2-v1",
      "date": "2026-11-17T18:57:00.636Z",
      "src": [
@@ -76,5 +144,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T18:57:04.862Z"
+ "updated": "2026-11-17T18:59:00.596Z"
 }
