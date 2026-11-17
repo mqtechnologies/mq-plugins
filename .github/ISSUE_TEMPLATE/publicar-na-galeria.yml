@@ -1,0 +1,86 @@
+name: "🌍 Publicar na galeria comunitária"
+description: "Partilhe uma app, um modelo editável, um MQ Server ou um plugin feito com o MQ Creator. Fica publicado logo, com o seu nome."
+title: "Nome da app"
+labels: ["galeria"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Galeria comunitária do MQ Creator.** O que publicar aqui aparece a todos, com o seu nome de utilizador, logo a seguir (uns minutos).
+        - Arraste os ficheiros para a caixa «Ficheiros» (cada ficheiro até 25 MB).
+        - **Editável:** junte o `.mqx`. Sem `.mqx` (só a build) fica marcada como «não editável».
+        - **Nova versão:** edite este pedido e junte os ficheiros novos. **Retirar:** feche o pedido.
+        - Os 👍 e os comentários deste pedido são os da galeria.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options:
+        - Atividade
+        - Modelo editável
+        - MQ Server
+        - Plugin
+    validations: { required: true }
+  - type: dropdown
+    id: areas
+    attributes:
+      label: Áreas
+      multiple: true
+      options:
+        - Cognitivo
+        - Matemática
+        - Linguagem
+        - Infantil
+        - Motricidade e exergames
+        - Música
+        - Ciências
+        - Reabilitação
+        - Outra
+    validations: { required: true }
+  - type: input
+    id: etiquetas
+    attributes:
+      label: Etiquetas
+      description: "Palavras separadas por vírgulas (ex.: memória, atenção, somas)"
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: "Para que serve, para quem, como se joga."
+    validations: { required: true }
+  - type: dropdown
+    id: lingua
+    attributes:
+      label: Língua
+      multiple: true
+      options: [Português, Català, Español, English, Français, Deutsch, Italiano, Outra]
+    validations: { required: true }
+  - type: dropdown
+    id: idade
+    attributes:
+      label: Idade
+      multiple: true
+      options: ["Todas", "3–6 anos", "7–12 anos", "13–17 anos", "Adultos", "Idosos"]
+  - type: dropdown
+    id: licenca
+    attributes:
+      label: Licença
+      options: ["CC BY 4.0", "CC BY-SA 4.0", "CC BY-NC 4.0", "CC0 (domínio público)", "Todos os direitos reservados"]
+    validations: { required: true }
+  - type: input
+    id: servidor
+    attributes:
+      label: Endereço do MQ Server
+      description: "Só para o tipo «MQ Server» (ex.: https://utilizador.github.io/repositorio/servidor/)"
+  - type: textarea
+    id: ficheiros
+    attributes:
+      label: Ficheiros
+      description: "Arraste para aqui: o .mqx (editável), a build (.html ou .zip), a imagem de capa (.png/.jpg) ou o plugin (.zip)."
+  - type: checkboxes
+    id: direitos
+    attributes:
+      label: Direitos
+      options:
+        - label: "Fiz este conteúdo (ou tenho autorização) e posso partilhá-lo com esta licença."
+          required: true

@@ -1,0 +1,29 @@
+# Galeria comunitária do MQ Creator: publica os pedidos (issues) com a etiqueta «galeria»,
+# retira os fechados e atualiza descargas, 👍 e comentários. Repositório público: não gasta créditos.
+name: Galeria comunitária
+on:
+  issues:
+    types: [opened, edited, reopened, closed, labeled]
+  issue_comment:
+    types: [created, deleted]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: galeria, cancel-in-progress: false }
+jobs:
+  galeria:
+    if: github.repository == 'sergi-bermudez/mq-plugins'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Galeria
+        env: { GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+        run: node .github/galeria.js
+      - name: Guardar
+        run: |
+          git config user.name "mq-galeria"; git config user.email "mq-galeria@users.noreply.github.com"
+          git add -A galeria
+          git diff --cached --quiet || (git commit -m "Galeria comunitária: atualização" && (git push || (git pull --rebase && git push)))
