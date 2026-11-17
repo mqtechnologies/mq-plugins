@@ -73,6 +73,81 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g6-v1",
+     "date": "2026-11-17T19:01:45.321Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Sopa-de-Letras.mqx",
+       "size": 5754778,
+       "asset": 760264103,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 10167,
+       "asset": 760264169,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g6-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T19:01:43.680Z",
+   "id": 6,
+   "title": "Sopa de Letras",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Linguagem"
+   ],
+   "etiquetas": [
+    "atenção",
+    "linguagem",
+    "palavras",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Encontrar as palavras escondidas numa grelha de letras. Treina atenção visual, pesquisa e linguagem. Modelo editável: pode mudar as palavras.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/6",
+   "updated": "2026-11-17T19:01:43.680Z",
+   "previews": [
+    "galeria/f/6/v1/prev1.jpg",
+    "galeria/f/6/v1/prev2.jpg"
+   ],
+   "ecras": 29,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/6/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g5-v1",
      "date": "2026-11-17T19:01:07.303Z",
      "src": [
@@ -364,5 +439,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T19:01:12.908Z"
+ "updated": "2026-11-17T19:01:50.473Z"
 }
