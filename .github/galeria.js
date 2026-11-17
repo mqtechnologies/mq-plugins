@@ -10,7 +10,7 @@ const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..'), G = path.join(ROOT, 'galeria'), CAT = path.join(G, 'catalog.json');
 const REPO = process.env.GITHUB_REPOSITORY || 'sergi-bermudez/mq-plugins', TOKEN = process.env.GITHUB_TOKEN || '';
 const API = 'https://api.github.com/repos/' + REPO;
-const MAXF = 100 * 1024 * 1024;
+const MAXF = 300 * 1024 * 1024;   /* as builds com vídeo e música podem passar dos 100 MB */
 /* por agora só apps e modelos (MQ Servers e plugins ficam de fora da galeria comunitária) */
 const TIPOS = { 'Atividade': 'app', 'Modelo editável': 'tpl' };
 
@@ -31,7 +31,7 @@ function parseForm(body) {
   };
 }
 /* só ficheiros anexados ao GitHub (ou já neste repositório): nunca endereços quaisquer */
-const OKURL = /^https:\/\/(github\.com\/user-attachments\/(files|assets)\/|user-images\.githubusercontent\.com\/|private-user-images\.githubusercontent\.com\/|raw\.githubusercontent\.com\/sergi-bermudez\/mq-plugins\/|raw\.githubusercontent\.com\/[\w.-]+\/mq-galeria\/)/;
+const OKURL = /^https:\/\/(github\.com\/user-attachments\/(files|assets)\/|user-images\.githubusercontent\.com\/|private-user-images\.githubusercontent\.com\/|raw\.githubusercontent\.com\/sergi-bermudez\/mq-plugins\/|github\.com\/sergi-bermudez\/mq-plugins\/releases\/download\/|raw\.githubusercontent\.com\/[\w.-]+\/mq-galeria\/)/;
 /* publicado pela app (desktop): os ficheiros vêm do repositório «mq-galeria» do próprio autor */
 const APPMARK = '<!-- mq-galeria-app -->';
 function anexos(txt) {
