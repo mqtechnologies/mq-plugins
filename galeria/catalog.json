@@ -5,47 +5,46 @@
    "versions": [
     {
      "v": 1,
-     "tag": "g12-v1",
-     "date": "2026-11-17T18:58:54.821Z",
+     "tag": "g11-v1",
+     "date": "2026-11-17T19:05:25.607Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
      ],
      "files": {
       "build": {
-       "name": "Monstros-da-Atencao-build.zip",
-       "size": 84181575,
-       "asset": 760255363,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
+       "name": "Monstro-das-Emocoes-build.html",
+       "size": 28443051,
+       "asset": 760275346,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g11-v1/Monstro-das-Emocoes-build.html",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html"
       },
       "img": {
        "name": "capa.jpg",
-       "size": 14990,
-       "asset": 760255617,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+       "size": 15909,
+       "asset": 760275454,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g11-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
       }
      }
     }
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 2,
-   "created": "2026-11-17T18:58:53.870Z",
-   "id": 12,
-   "title": "Monstros da Atenção",
+   "comments": 0,
+   "created": "2026-11-17T19:05:24.235Z",
+   "id": 11,
+   "title": "Monstro das Emoções",
    "tipo": "app",
    "areas": [
-    "Infantil",
-    "Cognitivo"
+    "Infantil"
    ],
    "etiquetas": [
-    "atenção",
+    "emoções",
     "crianças",
     "mq kids"
    ],
-   "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.",
+   "descricao": "MQ Kids: jogo para crianças sobre as emoções — reconhecer e dar nome à alegria, à tristeza, à raiva, ao medo e à calma, com música e voz. Só para jogar.",
    "linguas": [
     "Português"
    ],
@@ -59,15 +58,15 @@
     "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
     "url": "https://github.com/sergi-bermudez"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/12",
-   "updated": "2026-11-17T18:58:53.870Z",
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/11",
+   "updated": "2026-11-17T19:05:24.235Z",
    "previews": [],
-   "thumb": "galeria/f/12/v1/capa.jpg",
+   "thumb": "galeria/f/11/v1/capa.jpg",
    "editable": false,
    "destacada": false,
    "remixes": 0,
-   "score": 4,
-   "trend": 2.83
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -99,7 +98,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:04:39.779Z",
    "id": 10,
    "title": "Subtrações",
@@ -141,8 +140,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -174,7 +173,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:03:56.268Z",
    "id": 9,
    "title": "Somas",
@@ -216,8 +215,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -249,7 +248,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:03:08.589Z",
    "id": 8,
    "title": "Multiplicações",
@@ -291,8 +290,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -324,7 +323,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:02:24.972Z",
    "id": 7,
    "title": "Divisões",
@@ -366,8 +365,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -399,7 +398,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:01:43.680Z",
    "id": 6,
    "title": "Sopa de Letras",
@@ -441,8 +440,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -474,7 +473,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:01:05.895Z",
    "id": 5,
    "title": "Memória",
@@ -514,8 +513,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -547,7 +546,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T19:00:26.711Z",
    "id": 4,
    "title": "Toupeiras",
@@ -587,8 +586,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -620,7 +619,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T18:59:30.686Z",
    "id": 3,
    "title": "Buscaminas",
@@ -661,8 +660,76 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
+   "score": 0,
+   "trend": 0
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g12-v1",
+     "date": "2026-11-17T18:58:54.821Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Monstros-da-Atencao-build.zip",
+       "size": 84181575,
+       "asset": 760255363,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 14990,
+       "asset": 760255617,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T18:58:53.870Z",
+   "id": 12,
+   "title": "Monstros da Atenção",
+   "tipo": "app",
+   "areas": [
+    "Infantil",
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "crianças",
+    "mq kids"
+   ],
+   "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos",
+    "7–12 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/12",
+   "updated": "2026-11-17T18:58:53.870Z",
+   "previews": [],
+   "thumb": "galeria/f/12/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 0,
+   "trend": 0
   },
   {
    "versions": [
@@ -694,7 +761,7 @@
    ],
    "downloads": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
    "created": "2026-11-17T18:56:59.292Z",
    "id": 2,
    "title": "Batalha Naval",
@@ -735,76 +802,9 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 3,
-   "trend": 2.12
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g11-v1",
-     "date": "2026-11-17T19:05:25.607Z",
-     "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
-     ],
-     "files": {
-      "build": {
-       "name": "Monstro-das-Emocoes-build.html",
-       "size": 28443051,
-       "asset": 760275346,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g11-v1/Monstro-das-Emocoes-build.html",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 15909,
-       "asset": 760275454,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g11-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 0,
-   "likes": 0,
-   "comments": 1,
-   "created": "2026-11-17T19:05:24.235Z",
-   "id": 11,
-   "title": "Monstro das Emoções",
-   "tipo": "app",
-   "areas": [
-    "Infantil"
-   ],
-   "etiquetas": [
-    "emoções",
-    "crianças",
-    "mq kids"
-   ],
-   "descricao": "MQ Kids: jogo para crianças sobre as emoções — reconhecer e dar nome à alegria, à tristeza, à raiva, ao medo e à calma, com música e voz. Só para jogar.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "3–6 anos",
-    "7–12 anos"
-   ],
-   "licenca": "Todos os direitos reservados",
-   "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
-   },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/11",
-   "updated": "2026-11-17T19:05:24.235Z",
-   "previews": [],
-   "thumb": "galeria/f/11/v1/capa.jpg",
-   "editable": false,
-   "destacada": false,
-   "remixes": 0,
-   "score": 2,
-   "trend": 1.41
+   "score": 0,
+   "trend": 0
   }
  ],
- "updated": "2026-11-17T19:05:32.687Z"
+ "updated": "2026-11-17T19:11:33.838Z"
 }
