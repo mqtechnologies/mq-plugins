@@ -45,6 +45,17 @@
    "file": "plugins/TaskGenerator-2.0.10.zip",
    "size": 9211970,
    "sha256": "ab0a8e9917dc984372794e47708544940f673414206c3e4329aafd600c8a167d"
+  },
+  {
+   "id": "com.musiquence.tangram",
+   "name": "MQ Tangram",
+   "version": "1.0.0",
+   "description": "Tangram: fill the silhouette or complete the board with the 7 pieces; colours, sizes, easy to hard figures (or your own), arrows and keyboard for accessibility, and a puzzle mode with an image",
+   "icon": "🧩",
+   "author": "Musiquence",
+   "file": "plugins/Tangram-1.0.0.zip",
+   "size": 197180,
+   "sha256": "e25f36431118f881e2daabe06eccb523f2da562d88e9027a2eee97c6668b9a5c"
   }
  ]
 }
