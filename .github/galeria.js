@@ -31,7 +31,9 @@ function parseForm(body) {
   };
 }
 /* só ficheiros anexados ao GitHub (ou já neste repositório): nunca endereços quaisquer */
-const OKURL = /^https:\/\/(github\.com\/user-attachments\/(files|assets)\/|user-images\.githubusercontent\.com\/|private-user-images\.githubusercontent\.com\/|raw\.githubusercontent\.com\/sergi-bermudez\/mq-plugins\/)/;
+const OKURL = /^https:\/\/(github\.com\/user-attachments\/(files|assets)\/|user-images\.githubusercontent\.com\/|private-user-images\.githubusercontent\.com\/|raw\.githubusercontent\.com\/sergi-bermudez\/mq-plugins\/|raw\.githubusercontent\.com\/[\w.-]+\/mq-galeria\/)/;
+/* publicado pela app (desktop): os ficheiros vêm do repositório «mq-galeria» do próprio autor */
+const APPMARK = '<!-- mq-galeria-app -->';
 function anexos(txt) {
   const r = [], seen = new Set();
   const add = (url, name) => { url = url.replace(/[)>\]"']+$/, ''); if (!OKURL.test(url) || seen.has(url)) return; seen.add(url); r.push({ url, name: (name || url.split('/').pop() || 'ficheiro').replace(/[^\w.\-]+/g, '_').slice(0, 80) }); };
@@ -104,7 +106,7 @@ async function ghAll(p) { const out = []; for (let pg = 1; pg < 20; pg++) { cons
 const comment = (n, body) => gh(`/issues/${n}/comments`, { method: 'POST', body: JSON.stringify({ body }) }).catch((e) => console.log('comentário:', e.message));
 async function labels(n, add) { try { await gh(`/issues/${n}/labels`, { method: 'POST', body: JSON.stringify({ labels: add }) }); } catch (e) { console.log('etiquetas:', e.message); } }
 async function download(url) {
-  const r = await fetch(url, { headers: { 'User-Agent': 'mq-galeria' }, redirect: 'follow' });
+  let r; for (let t = 0; t < 4; t++) { r = await fetch(url, { headers: { 'User-Agent': 'mq-galeria' }, redirect: 'follow' }); if (r.ok || r.status !== 404 || !/\/mq-galeria\//.test(url)) break; await new Promise((ok) => setTimeout(ok, 8000)); }
   if (!r.ok) throw new Error('não consegui descarregar ' + url.split('/').pop() + ' (' + r.status + ')');
   const len = +r.headers.get('content-length') || 0; if (len > MAXF) throw new Error('ficheiro grande demais');
   const b = Buffer.from(await r.arrayBuffer()); if (b.length > MAXF) throw new Error('ficheiro grande demais'); return b;
@@ -127,6 +129,8 @@ async function publish(issue, sender, c) {
     else { try { const u = f.servidor.replace(/\/?$/, '/'); const j = await (await fetch(u + 'mqserver.json')).json(); if (!j || !/^mq-(server|hub)$/.test(j.kind)) throw 0; meta.servidor = u; meta.n = j.n || (j.servers || []).length || 0; } catch (x) { errs.push('Não encontrei um MQ Server em ' + f.servidor + ' (falta mqserver.json).'); } }
   }
   const prevSrc = e && e.versions.length ? e.versions[e.versions.length - 1].src.join(' ') : '';
+  /* ficheiros de um «mq-galeria» só valem se forem do próprio autor do pedido */
+  f.ficheiros = f.ficheiros.filter((x) => { const m = x.url.match(/^https:\/\/raw\.githubusercontent\.com\/([\w.-]+)\/mq-galeria\//); return !m || m[1].toLowerCase() === issue.user.login.toLowerCase(); });
   const srcNow = f.ficheiros.map((x) => x.url);
   let newVersion = null;
   if (f.tipo !== 'srv' && srcNow.length && srcNow.join(' ') !== prevSrc && isAuthor) {
@@ -192,7 +196,7 @@ async function main() {
   const ev = process.env.GITHUB_EVENT_PATH ? JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8')) : {};
   const name = process.env.GITHUB_EVENT_NAME || '';
   let c = load();
-  const issue = ev.issue, isG = issue && (issue.labels || []).some((l) => (l.name || l) === 'galeria') && !issue.pull_request;
+  const issue = ev.issue, isG = issue && ((issue.labels || []).some((l) => (l.name || l) === 'galeria') || String(issue.body || '').includes(APPMARK)) && !issue.pull_request;
   if (isG && name === 'issues') {
     if (ev.action === 'closed') c = await retire(issue, c);
     else if (['opened', 'edited', 'reopened', 'labeled'].includes(ev.action)) c = await publish(issue, ev.sender && ev.sender.login, c);
