@@ -5,46 +5,46 @@
   {
    "id": "com.musiquence.paint",
    "name": "MQ Paint",
-   "version": "1.5.7",
+   "version": "1.5.8",
    "description": "Colour a drawing made from an image or from geometric shapes (or a blank sheet); print it",
    "icon": "🎨",
    "author": "Musiquence",
-   "file": "plugins/Paint-1.5.7.zip",
-   "size": 179693,
-   "sha256": "79bd07b3ac7f775da8894d253aa066659043651805ad7b7a8cda3a8f294d986c"
+   "file": "plugins/Paint-1.5.8.zip",
+   "size": 180050,
+   "sha256": "aacd8b3a378637c99e4acd7a1221e9a6c98c69bc2aaef62616fb6b3faf3b979f"
   },
   {
    "id": "com.musiquence.explorer3d",
    "name": "MQ 3D Blocks",
-   "version": "2.13.10",
+   "version": "2.13.11",
    "description": "First-person 3D level made in a grid editor: collect objects, answer questions, keys and doors, hints, reach the exit",
    "icon": "🏰",
    "author": "Musiquence",
-   "file": "plugins/Explorer3D-2.13.10.zip",
-   "size": 586609,
-   "sha256": "3ed1ad549384d28266bea105e48abffc91f46812668cd82c6ac013dce6fdd2f1"
+   "file": "plugins/Explorer3D-2.13.11.zip",
+   "size": 586882,
+   "sha256": "7efa8a10adc5a0cd798b6b3dd079bddb6e0fbbc2d95f7dcc720d78e35cc038ab"
   },
   {
    "id": "com.musiquence.videoquiz",
    "name": "MQ Forms",
-   "version": "2.3.4",
+   "version": "2.3.5",
    "description": "Formulário com vídeo: escolha única ou múltipla, texto, número, escala, data, imagens e vídeos, saltos conforme a resposta, pontuação; assistente: modelos prontos, rascunho por IA local e digitalização de uma fotografia",
    "icon": "📝",
    "author": "Musiquence",
-   "file": "plugins/VideoQuiz-2.3.4.zip",
-   "size": 281185,
-   "sha256": "cad50f51e6163b96921d48c4eacc5e6a6e30a5688d0541b2eade2e8e1cf39fa4"
+   "file": "plugins/VideoQuiz-2.3.5.zip",
+   "size": 281544,
+   "sha256": "1dc4f55938ec5690b497deacb23fabea5a1992edb169d07d0a9653c3914c213f"
   },
   {
    "id": "com.neurorehablab.taskgenerator",
    "name": "Task Generator",
-   "version": "2.0.7",
+   "version": "2.0.8",
    "description": "Task Generator: 11 cognitive tasks generated from a cognitive profile or from their variables; adaptive (difficulty ±0.5)",
    "icon": "🧠",
    "author": "NeuroRehabLab",
-   "file": "plugins/TaskGenerator-2.0.7.zip",
-   "size": 9210926,
-   "sha256": "382276f897210bccee7025ffbb8bec95537c5fb03dbe5ebee051e6d70bd81e88"
+   "file": "plugins/TaskGenerator-2.0.8.zip",
+   "size": 9211238,
+   "sha256": "2fca734e9dcbbaf2fd0a2cf8351e8dd545a12c0f89fbf05b63792ece1230f4e5"
   }
  ]
 }
