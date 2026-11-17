@@ -73,6 +73,81 @@
    "versions": [
     {
      "v": 1,
+     "tag": "g7-v1",
+     "date": "2026-11-17T19:02:26.288Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Divisoes.mqx",
+       "size": 7547991,
+       "asset": 760266334,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g7-v1/Divisoes.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8208,
+       "asset": 760266428,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g7-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 1,
+   "created": "2026-11-17T19:02:24.972Z",
+   "id": 7,
+   "title": "Divisões",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "divisões",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Divisões com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/7",
+   "updated": "2026-11-17T19:02:24.972Z",
+   "previews": [
+    "galeria/f/7/v1/prev1.jpg",
+    "galeria/f/7/v1/prev2.jpg"
+   ],
+   "ecras": 94,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/7/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2.12
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
      "tag": "g6-v1",
      "date": "2026-11-17T19:01:45.321Z",
      "src": [
@@ -439,5 +514,5 @@
    "trend": 2.12
   }
  ],
- "updated": "2026-11-17T19:01:50.473Z"
+ "updated": "2026-11-17T19:02:31.826Z"
 }
