@@ -29,7 +29,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 5,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T19:05:24.235Z",
@@ -65,83 +65,8 @@
    "editable": false,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g10-v1",
-     "date": "2026-11-17T19:04:41.117Z",
-     "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
-     ],
-     "files": {
-      "mqx": {
-       "name": "Subtracoes.mqx",
-       "size": 8281246,
-       "asset": 760273078,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 8121,
-       "asset": 760273132,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 0,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T19:04:39.779Z",
-   "id": 10,
-   "title": "Subtrações",
-   "tipo": "tpl",
-   "areas": [
-    "Cognitivo",
-    "Matemática"
-   ],
-   "etiquetas": [
-    "cálculo",
-    "subtrações",
-    "matemática",
-    "estimulação cognitiva"
-   ],
-   "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "Adultos",
-    "Idosos"
-   ],
-   "licenca": "CC BY-NC 4.0",
-   "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
-   },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/10",
-   "updated": "2026-11-17T19:04:39.779Z",
-   "previews": [
-    "galeria/f/10/v1/prev1.jpg",
-    "galeria/f/10/v1/prev2.jpg"
-   ],
-   "ecras": 99,
-   "plugins": [],
-   "camara": false,
-   "thumb": "galeria/f/10/v1/capa.jpg",
-   "editable": true,
-   "destacada": false,
-   "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 5,
+   "trend": 3.34
   },
   {
    "versions": [
@@ -171,7 +96,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 3,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T19:03:56.268Z",
@@ -215,8 +140,229 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 4.5,
+   "trend": 3
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g5-v1",
+     "date": "2026-11-17T19:01:07.303Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Memoria.mqx",
+       "size": 16825801,
+       "asset": 760261985,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g5-v1/Memoria.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8038,
+       "asset": 760262054,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g5-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:01:05.895Z",
+   "id": 5,
+   "title": "Memória",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "memória",
+    "pares",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Jogo de pares com níveis progressivos (cada vez mais cartas). Treina memória visual e memória de trabalho. Modelo editável: pode trocar as imagens das cartas.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/5",
+   "updated": "2026-11-17T19:01:05.895Z",
+   "previews": [
+    "galeria/f/5/v1/prev1.jpg",
+    "galeria/f/5/v1/prev2.jpg"
+   ],
+   "ecras": 145,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/5/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 3
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g4-v1",
+     "date": "2026-11-17T19:00:28.080Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Toupeiras.mqx",
+       "size": 3520268,
+       "asset": 760260030,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/Toupeiras.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8813,
+       "asset": 760260079,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:00:26.711Z",
+   "id": 4,
+   "title": "Toupeiras",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "velocidade de processamento",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Tocar nas toupeiras que aparecem, com cada vez mais velocidade e distrações a cada nível. Treina atenção sustentada e seletiva e velocidade de processamento. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/4",
+   "updated": "2026-11-17T19:00:26.711Z",
+   "previews": [
+    "galeria/f/4/v1/prev1.jpg",
+    "galeria/f/4/v1/prev2.jpg"
+   ],
+   "ecras": 239,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/4/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 3
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g10-v1",
+     "date": "2026-11-17T19:04:41.117Z",
+     "src": [
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx",
+      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Subtracoes.mqx",
+       "size": 8281246,
+       "asset": 760273078,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8121,
+       "asset": 760273132,
+       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 2,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:04:39.779Z",
+   "id": 10,
+   "title": "Subtrações",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "subtrações",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "sergi-bermudez",
+    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
+    "url": "https://github.com/sergi-bermudez"
+   },
+   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/10",
+   "updated": "2026-11-17T19:04:39.779Z",
+   "previews": [
+    "galeria/f/10/v1/prev1.jpg",
+    "galeria/f/10/v1/prev2.jpg"
+   ],
+   "ecras": 99,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/10/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 2
   },
   {
    "versions": [
@@ -246,7 +392,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 2,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T19:03:08.589Z",
@@ -290,8 +436,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 3,
+   "trend": 2
   },
   {
    "versions": [
@@ -321,7 +467,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 2,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T19:02:24.972Z",
@@ -365,8 +511,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 3,
+   "trend": 2
   },
   {
    "versions": [
@@ -396,7 +542,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 2,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T19:01:43.680Z",
@@ -440,154 +586,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g5-v1",
-     "date": "2026-11-17T19:01:07.303Z",
-     "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria-capa.jpg"
-     ],
-     "files": {
-      "mqx": {
-       "name": "Memoria.mqx",
-       "size": 16825801,
-       "asset": 760261985,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g5-v1/Memoria.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria.mqx"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 8038,
-       "asset": 760262054,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g5-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 0,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T19:01:05.895Z",
-   "id": 5,
-   "title": "Memória",
-   "tipo": "tpl",
-   "areas": [
-    "Cognitivo"
-   ],
-   "etiquetas": [
-    "memória",
-    "pares",
-    "estimulação cognitiva"
-   ],
-   "descricao": "Jogo de pares com níveis progressivos (cada vez mais cartas). Treina memória visual e memória de trabalho. Modelo editável: pode trocar as imagens das cartas.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "Adultos",
-    "Idosos"
-   ],
-   "licenca": "CC BY-NC 4.0",
-   "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
-   },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/5",
-   "updated": "2026-11-17T19:01:05.895Z",
-   "previews": [
-    "galeria/f/5/v1/prev1.jpg",
-    "galeria/f/5/v1/prev2.jpg"
-   ],
-   "ecras": 145,
-   "plugins": [],
-   "camara": false,
-   "thumb": "galeria/f/5/v1/capa.jpg",
-   "editable": true,
-   "destacada": false,
-   "remixes": 0,
-   "score": 0,
-   "trend": 0
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g4-v1",
-     "date": "2026-11-17T19:00:28.080Z",
-     "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
-     ],
-     "files": {
-      "mqx": {
-       "name": "Toupeiras.mqx",
-       "size": 3520268,
-       "asset": 760260030,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/Toupeiras.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 8813,
-       "asset": 760260079,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 0,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T19:00:26.711Z",
-   "id": 4,
-   "title": "Toupeiras",
-   "tipo": "tpl",
-   "areas": [
-    "Cognitivo"
-   ],
-   "etiquetas": [
-    "atenção",
-    "velocidade de processamento",
-    "estimulação cognitiva"
-   ],
-   "descricao": "Tocar nas toupeiras que aparecem, com cada vez mais velocidade e distrações a cada nível. Treina atenção sustentada e seletiva e velocidade de processamento. Modelo editável.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "Adultos",
-    "Idosos"
-   ],
-   "licenca": "CC BY-NC 4.0",
-   "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
-   },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/4",
-   "updated": "2026-11-17T19:00:26.711Z",
-   "previews": [
-    "galeria/f/4/v1/prev1.jpg",
-    "galeria/f/4/v1/prev2.jpg"
-   ],
-   "ecras": 239,
-   "plugins": [],
-   "camara": false,
-   "thumb": "galeria/f/4/v1/capa.jpg",
-   "editable": true,
-   "destacada": false,
-   "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 3,
+   "trend": 2
   },
   {
    "versions": [
@@ -617,7 +617,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 2,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T18:59:30.686Z",
@@ -660,8 +660,8 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 3,
+   "trend": 2
   },
   {
    "versions": [
@@ -691,7 +691,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 3,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T18:58:53.870Z",
@@ -728,8 +728,8 @@
    "editable": false,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 3,
+   "trend": 2
   },
   {
    "versions": [
@@ -759,7 +759,7 @@
      }
     }
    ],
-   "downloads": 0,
+   "downloads": 2,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T18:56:59.292Z",
@@ -802,9 +802,9 @@
    "editable": true,
    "destacada": false,
    "remixes": 0,
-   "score": 0,
-   "trend": 0
+   "score": 3,
+   "trend": 2
   }
  ],
- "updated": "2026-11-17T19:11:33.838Z"
+ "updated": "2026-11-18T00:59:26.029Z"
 }
