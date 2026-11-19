@@ -8,23 +8,23 @@
      "tag": "g11-v1",
      "date": "2026-11-17T19:05:25.607Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
      ],
      "files": {
       "build": {
        "name": "Monstro-das-Emocoes-build.html",
        "size": 28443051,
        "asset": 760275346,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g11-v1/Monstro-das-Emocoes-build.html",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g11-v1/Monstro-das-Emocoes-build.html",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html"
       },
       "img": {
        "name": "capa.jpg",
        "size": 15909,
        "asset": 760275454,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g11-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g11-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
       }
      }
     }
@@ -54,11 +54,12 @@
    ],
    "licenca": "Todos os direitos reservados",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/11",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/11",
    "updated": "2026-11-17T19:05:24.235Z",
    "previews": [],
    "thumb": "galeria/f/11/v1/capa.jpg",
@@ -75,23 +76,23 @@
      "tag": "g9-v1",
      "date": "2026-11-17T19:03:57.685Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Somas.mqx",
        "size": 9228491,
        "asset": 760271327,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g9-v1/Somas.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g9-v1/Somas.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8318,
        "asset": 760271397,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g9-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Somas-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g9-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas-capa.jpg"
       }
      }
     }
@@ -123,11 +124,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/9",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/9",
    "updated": "2026-11-17T19:03:56.268Z",
    "previews": [
     "galeria/f/9/v1/prev1.jpg",
@@ -150,23 +152,23 @@
      "tag": "g5-v1",
      "date": "2026-11-17T19:01:07.303Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Memoria.mqx",
        "size": 16825801,
        "asset": 760261985,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g5-v1/Memoria.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g5-v1/Memoria.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8038,
        "asset": 760262054,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g5-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Memoria-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g5-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria-capa.jpg"
       }
      }
     }
@@ -196,11 +198,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/5",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/5",
    "updated": "2026-11-17T19:01:05.895Z",
    "previews": [
     "galeria/f/5/v1/prev1.jpg",
@@ -223,23 +226,23 @@
      "tag": "g4-v1",
      "date": "2026-11-17T19:00:28.080Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Toupeiras.mqx",
        "size": 3520268,
        "asset": 760260030,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/Toupeiras.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g4-v1/Toupeiras.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8813,
        "asset": 760260079,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g4-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g4-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
       }
      }
     }
@@ -269,11 +272,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/4",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/4",
    "updated": "2026-11-17T19:00:26.711Z",
    "previews": [
     "galeria/f/4/v1/prev1.jpg",
@@ -296,23 +300,23 @@
      "tag": "g10-v1",
      "date": "2026-11-17T19:04:41.117Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Subtracoes.mqx",
        "size": 8281246,
        "asset": 760273078,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8121,
        "asset": 760273132,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g10-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
       }
      }
     }
@@ -344,11 +348,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/10",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/10",
    "updated": "2026-11-17T19:04:39.779Z",
    "previews": [
     "galeria/f/10/v1/prev1.jpg",
@@ -371,23 +376,23 @@
      "tag": "g8-v1",
      "date": "2026-11-17T19:03:09.902Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Multiplicacoes.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Multiplicacoes.mqx",
        "size": 7272287,
        "asset": 760268843,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g8-v1/Multiplicacoes.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Multiplicacoes.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/Multiplicacoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8657,
        "asset": 760268907,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g8-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
       }
      }
     }
@@ -419,11 +424,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/8",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/8",
    "updated": "2026-11-17T19:03:08.589Z",
    "previews": [
     "galeria/f/8/v1/prev1.jpg",
@@ -446,23 +452,23 @@
      "tag": "g7-v1",
      "date": "2026-11-17T19:02:26.288Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Divisoes.mqx",
        "size": 7547991,
        "asset": 760266334,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g7-v1/Divisoes.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g7-v1/Divisoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8208,
        "asset": 760266428,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g7-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g7-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
       }
      }
     }
@@ -494,11 +500,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/7",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/7",
    "updated": "2026-11-17T19:02:24.972Z",
    "previews": [
     "galeria/f/7/v1/prev1.jpg",
@@ -521,23 +528,23 @@
      "tag": "g6-v1",
      "date": "2026-11-17T19:01:45.321Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Sopa-de-Letras.mqx",
        "size": 5754778,
        "asset": 760264103,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 10167,
        "asset": 760264169,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g6-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
       }
      }
     }
@@ -569,11 +576,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/6",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/6",
    "updated": "2026-11-17T19:01:43.680Z",
    "previews": [
     "galeria/f/6/v1/prev1.jpg",
@@ -596,23 +604,23 @@
      "tag": "g3-v1",
      "date": "2026-11-17T18:59:32.024Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Buscaminas.mqx",
        "size": 8021849,
        "asset": 760257121,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g3-v1/Buscaminas.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g3-v1/Buscaminas.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 8565,
        "asset": 760257183,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g3-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g3-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
       }
      }
     }
@@ -643,11 +651,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/3",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/3",
    "updated": "2026-11-17T18:59:30.686Z",
    "previews": [
     "galeria/f/3/v1/prev1.jpg",
@@ -670,23 +679,23 @@
      "tag": "g12-v1",
      "date": "2026-11-17T18:58:54.821Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
      ],
      "files": {
       "build": {
        "name": "Monstros-da-Atencao-build.zip",
        "size": 84181575,
        "asset": 760255363,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
       },
       "img": {
        "name": "capa.jpg",
        "size": 14990,
        "asset": 760255617,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g12-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
       }
      }
     }
@@ -717,11 +726,12 @@
    ],
    "licenca": "Todos os direitos reservados",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/12",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/12",
    "updated": "2026-11-17T18:58:53.870Z",
    "previews": [],
    "thumb": "galeria/f/12/v1/capa.jpg",
@@ -738,23 +748,23 @@
      "tag": "g2-v1",
      "date": "2026-11-17T18:57:00.636Z",
      "src": [
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval.mqx",
-      "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
      ],
      "files": {
       "mqx": {
        "name": "Batalha-Naval.mqx",
        "size": 6256830,
        "asset": 760249831,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g2-v1/Batalha-Naval.mqx",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval.mqx"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g2-v1/Batalha-Naval.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval.mqx"
       },
       "img": {
        "name": "capa.jpg",
        "size": 9224,
        "asset": 760249876,
-       "url": "https://github.com/sergi-bermudez/mq-plugins/releases/download/g2-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g2-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
       }
      }
     }
@@ -785,11 +795,12 @@
    ],
    "licenca": "CC BY-NC 4.0",
    "autor": {
-    "login": "sergi-bermudez",
-    "avatar": "https://avatars.githubusercontent.com/u/117871472?v=4",
-    "url": "https://github.com/sergi-bermudez"
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
    },
-   "url": "https://github.com/sergi-bermudez/mq-plugins/issues/2",
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/2",
    "updated": "2026-11-17T18:56:59.292Z",
    "previews": [
     "galeria/f/2/v1/prev1.jpg",

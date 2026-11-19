@@ -15,7 +15,7 @@ permissions:
 concurrency: { group: galeria, cancel-in-progress: false }
 jobs:
   galeria:
-    if: github.repository == 'sergi-bermudez/mq-plugins'
+    if: github.repository == 'mqtechnologies/mq-plugins'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

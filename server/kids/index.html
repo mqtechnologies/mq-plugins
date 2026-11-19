@@ -1871,7 +1871,7 @@ async function plugRefresh(){try{PLUGS=await plugList()}catch(e){PLUGS=[]}plugRi
    No diálogo «Plugins» mostra-se, para cada pacote, «Atualizar» (há versão mais nova) ou «Obter» (ainda não está
    instalado); quem decide é a pessoa, pacote a pacote. O .zip só se instala se o sha256 bater com o do catálogo. */
 /* o mesmo repositório público por dois caminhos: GitHub Pages e, se esse falhar, o raw do GitHub (mq.plugcat: outro catálogo, para testes) */
-const PLUG_CATS=(()=>{let o='';try{o=localStorage.getItem('mq.plugcat')||''}catch(e){}return o?[o]:['https://sergi-bermudez.github.io/mq-plugins/','https://raw.githubusercontent.com/sergi-bermudez/mq-plugins/main/']})();
+const PLUG_CATS=(()=>{let o='';try{o=localStorage.getItem('mq.plugcat')||''}catch(e){}return o?[o]:['https://mqtechnologies.github.io/mq-plugins/','https://raw.githubusercontent.com/mqtechnologies/mq-plugins/main/']})();
 let PLUG_CAT=PLUG_CATS[0];
 let plugCatP=null;
 function plugCatalog(force){if(plugCatP&&!force)return plugCatP;plugCatP=(async()=>{if(navigator.onLine===false)return null;for(const base of PLUG_CATS){try{const ac=new AbortController();const t=setTimeout(()=>ac.abort(),9000);
@@ -6586,7 +6586,7 @@ function srvEnter(url){try{sessionStorage.setItem('mq.srv',url)}catch(e){}stopAl
 function srvLeave(){try{sessionStorage.removeItem('mq.srv')}catch(e){}location.reload()}
 async function srvOpen(url){const r=await srvConnect(url);if(!r)return;if(typeof r==='string')srvEnter(r);else{renderGallery();toast('🌐 '+L('Servidor adicionado à galeria.'))}}
 /* MQ Server por omissão: os jogos da Musiquence publicados no repositório mq-plugins */
-const SRV_DEF='https://sergi-bermudez.github.io/mq-plugins/server/';
+const SRV_DEF='https://mqtechnologies.github.io/mq-plugins/server/';
 function srvAsk(){const m=document.createElement('div');m.className='modal srvm';m.style.zIndex=92;const close=()=>m.remove();
   m.innerHTML=`<div class="pbox srvb" role="dialog" aria-label="${escH(L('Ligar a um MQ Server'))}"><button class="x" aria-label="${L('Fechar')}">×</button><h3>🌐 ${L('Ligar a um MQ Server')}</h3>
    <p class="ohint">${L('Escreva o endereço do servidor (a pasta exportada com «Exportar para MQ Server»). O servidor aparece na galeria como uma app e funciona também sem internet depois de aberto.')}</p>

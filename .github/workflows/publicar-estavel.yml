@@ -19,7 +19,7 @@ permissions:
 concurrency: { group: updates, cancel-in-progress: false }
 jobs:
   publish:
-    if: github.repository == 'sergi-bermudez/mq-plugins' && github.ref == 'refs/heads/main'
+    if: github.repository == 'mqtechnologies/mq-plugins' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

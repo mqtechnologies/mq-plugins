@@ -3,4 +3,4 @@ Jogos MQ · coleção de MQ Servers
 - Jogos de Estimulação Cognitiva: estimulacao/
 - Jogos para o desenvolvimento: kids/
 
-No MQ Creator: Galeria › Ligar a um MQ Server com https://sergi-bermudez.github.io/mq-plugins/server/ junta os dois servidores à galeria.
+No MQ Creator: Galeria › Ligar a um MQ Server com https://mqtechnologies.github.io/mq-plugins/server/ junta os dois servidores à galeria.
