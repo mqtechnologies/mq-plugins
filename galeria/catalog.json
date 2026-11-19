@@ -29,7 +29,7 @@
      }
     }
    ],
-   "downloads": 5,
+   "downloads": 6,
    "likes": 0,
    "comments": 0,
    "created": "2026-11-17T19:05:24.235Z",
@@ -66,8 +66,8 @@
    "editable": false,
    "destacada": false,
    "remixes": 0,
-   "score": 5,
-   "trend": 2.78
+   "score": 6,
+   "trend": 3.05
   },
   {
    "versions": [
@@ -143,7 +143,83 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.51
+   "trend": 2.29
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g6-v1",
+     "date": "2026-11-17T19:01:45.321Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Sopa-de-Letras.mqx",
+       "size": 5754778,
+       "asset": 760264103,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 10167,
+       "asset": 760264169,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:01:43.680Z",
+   "id": 6,
+   "title": "Sopa de Letras",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Linguagem"
+   ],
+   "etiquetas": [
+    "atenção",
+    "linguagem",
+    "palavras",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Encontrar as palavras escondidas numa grelha de letras. Treina atenção visual, pesquisa e linguagem. Modelo editável: pode mudar as palavras.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/6",
+   "updated": "2026-11-17T19:01:43.680Z",
+   "previews": [
+    "galeria/f/6/v1/prev1.jpg",
+    "galeria/f/6/v1/prev2.jpg"
+   ],
+   "ecras": 29,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/6/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 2.29
   },
   {
    "versions": [
@@ -217,7 +293,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.51
+   "trend": 2.29
   },
   {
    "versions": [
@@ -291,7 +367,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.51
+   "trend": 2.29
   },
   {
    "versions": [
@@ -367,7 +443,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.67
+   "trend": 1.53
   },
   {
    "versions": [
@@ -443,7 +519,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.67
+   "trend": 1.53
   },
   {
    "versions": [
@@ -519,83 +595,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.67
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g6-v1",
-     "date": "2026-11-17T19:01:45.321Z",
-     "src": [
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx",
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
-     ],
-     "files": {
-      "mqx": {
-       "name": "Sopa-de-Letras.mqx",
-       "size": 5754778,
-       "asset": 760264103,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 10167,
-       "asset": 760264169,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 2,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T19:01:43.680Z",
-   "id": 6,
-   "title": "Sopa de Letras",
-   "tipo": "tpl",
-   "areas": [
-    "Cognitivo",
-    "Linguagem"
-   ],
-   "etiquetas": [
-    "atenção",
-    "linguagem",
-    "palavras",
-    "estimulação cognitiva"
-   ],
-   "descricao": "Encontrar as palavras escondidas numa grelha de letras. Treina atenção visual, pesquisa e linguagem. Modelo editável: pode mudar as palavras.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "Adultos",
-    "Idosos"
-   ],
-   "licenca": "CC BY-NC 4.0",
-   "autor": {
-    "login": "mqtechnologies",
-    "name": "MQ Technologies",
-    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
-    "url": "https://github.com/mqtechnologies"
-   },
-   "url": "https://github.com/mqtechnologies/mq-plugins/issues/6",
-   "updated": "2026-11-17T19:01:43.680Z",
-   "previews": [
-    "galeria/f/6/v1/prev1.jpg",
-    "galeria/f/6/v1/prev2.jpg"
-   ],
-   "ecras": 29,
-   "plugins": [],
-   "camara": false,
-   "thumb": "galeria/f/6/v1/capa.jpg",
-   "editable": true,
-   "destacada": false,
-   "remixes": 0,
-   "score": 3,
-   "trend": 1.67
+   "trend": 1.53
   },
   {
    "versions": [
@@ -670,7 +670,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.67
+   "trend": 1.53
   },
   {
    "versions": [
@@ -739,7 +739,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.67
+   "trend": 1.53
   },
   {
    "versions": [
@@ -814,8 +814,8 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.67
+   "trend": 1.53
   }
  ],
- "updated": "2026-11-19T00:26:57.388Z"
+ "updated": "2026-11-19T15:49:38.997Z"
 }
