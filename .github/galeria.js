@@ -181,7 +181,7 @@ async function publish(issue, sender, c) {
     if (newVersion.mqx) { const inf = mqxInfo(newVersion.mqx.b); e.ecras = inf.ecras; e.plugins = inf.plugins; e.camara = inf.camara;
       for (const [i, pv] of inf.previews.slice(0, 2).entries()) { const r = await put(pv.b, 'prev' + (i + 1), 960); if (r) e.previews.push(r); } }
     if (f.notas) v.notas = f.notas;
-    e.thumb = (newVersion.img && await put(newVersion.img.b, 'capa', 640)) || (newVersion.mqx && e.previews[0]) || '';
+    e.thumb = (newVersion.img && await put(newVersion.img.b, 'capa', 960)) || (newVersion.mqx && e.previews[0]) || '';
     e.editable = !!v.files.mqx || (e.tipo === 'tpl'); e.versions.push(v);
     await labels(n, ['galeria', 'publicada']);
     await comment(n, `✅ **Publicada** na galeria comunitária (versão ${k}).\n\n${v.files.mqx ? '✏️ Editável (.mqx)' : '▶️ Só para jogar (sem .mqx)'} · ficheiros: ${Object.values(v.files).map((x) => x.name).join(', ')}\n\nPara uma nova versão, edite o pedido e junte os ficheiros novos. Para retirar, feche o pedido.`);
