@@ -1,12 +1,12 @@
 {
  "v": 1,
  "ed": "free",
- "version": "4.8z116",
+ "version": "4.8z117",
  "minExe": "4.8z53",
- "built": "2026-11-19T14:53:28.181Z",
+ "built": "2026-11-19T15:56:14.174Z",
  "parts": [
   {
-   "f": "942e8fb4c770ef8f422387a759509eeac00231bf5051fcda4fbaf801d459166d.bin",
+   "f": "1cff3eab405c80544fe8a51616640d51352df0a15eb74e67bbe4b9d16e10d90a.bin",
    "n": 189867
   },
   {
@@ -34,8 +34,8 @@
    "n": 1137341
   },
   {
-   "f": "e3fec5268c9348d8f41b4707e3051b4f081a127599b0cbfca0c1242afe5bae34.bin",
-   "n": 2117948
+   "f": "4e7d4606cd09cc0250e18943c141b2ae0dcb0a3fd73f391c732dee5270e96bf5.bin",
+   "n": 2135710
   }
  ]
 }
