@@ -67,7 +67,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 6,
-   "trend": 3.05
+   "trend": 2.92
   },
   {
    "versions": [
@@ -143,7 +143,83 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.29
+   "trend": 2.19
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g8-v1",
+     "date": "2026-11-17T19:03:09.902Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Multiplicacoes.mqx",
+       "size": 7272287,
+       "asset": 760268843,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/Multiplicacoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8657,
+       "asset": 760268907,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:03:08.589Z",
+   "id": 8,
+   "title": "Multiplicações",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "multiplicações",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Multiplicações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/8",
+   "updated": "2026-11-17T19:03:08.589Z",
+   "previews": [
+    "galeria/f/8/v1/prev1.jpg",
+    "galeria/f/8/v1/prev2.jpg"
+   ],
+   "ecras": 91,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/8/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 2.19
   },
   {
    "versions": [
@@ -219,7 +295,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.29
+   "trend": 2.19
   },
   {
    "versions": [
@@ -293,7 +369,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.29
+   "trend": 2.19
   },
   {
    "versions": [
@@ -367,7 +443,76 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.29
+   "trend": 2.19
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g12-v1",
+     "date": "2026-11-17T18:58:54.821Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Monstros-da-Atencao-build.zip",
+       "size": 84181575,
+       "asset": 760255363,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 14990,
+       "asset": 760255617,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 4,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T18:58:53.870Z",
+   "id": 12,
+   "title": "Monstros da Atenção",
+   "tipo": "app",
+   "areas": [
+    "Infantil",
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "crianças",
+    "mq kids"
+   ],
+   "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos",
+    "7–12 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/12",
+   "updated": "2026-11-17T18:58:53.870Z",
+   "previews": [],
+   "thumb": "galeria/f/12/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4,
+   "trend": 1.94
   },
   {
    "versions": [
@@ -443,83 +588,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.53
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g8-v1",
-     "date": "2026-11-17T19:03:09.902Z",
-     "src": [
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx",
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
-     ],
-     "files": {
-      "mqx": {
-       "name": "Multiplicacoes.mqx",
-       "size": 7272287,
-       "asset": 760268843,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/Multiplicacoes.mqx",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 8657,
-       "asset": 760268907,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 2,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T19:03:08.589Z",
-   "id": 8,
-   "title": "Multiplicações",
-   "tipo": "tpl",
-   "areas": [
-    "Cognitivo",
-    "Matemática"
-   ],
-   "etiquetas": [
-    "cálculo",
-    "multiplicações",
-    "matemática",
-    "estimulação cognitiva"
-   ],
-   "descricao": "Multiplicações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "Adultos",
-    "Idosos"
-   ],
-   "licenca": "CC BY-NC 4.0",
-   "autor": {
-    "login": "mqtechnologies",
-    "name": "MQ Technologies",
-    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
-    "url": "https://github.com/mqtechnologies"
-   },
-   "url": "https://github.com/mqtechnologies/mq-plugins/issues/8",
-   "updated": "2026-11-17T19:03:08.589Z",
-   "previews": [
-    "galeria/f/8/v1/prev1.jpg",
-    "galeria/f/8/v1/prev2.jpg"
-   ],
-   "ecras": 91,
-   "plugins": [],
-   "camara": false,
-   "thumb": "galeria/f/8/v1/capa.jpg",
-   "editable": true,
-   "destacada": false,
-   "remixes": 0,
-   "score": 3,
-   "trend": 1.53
+   "trend": 1.46
   },
   {
    "versions": [
@@ -595,7 +664,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.53
+   "trend": 1.46
   },
   {
    "versions": [
@@ -670,76 +739,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.53
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g12-v1",
-     "date": "2026-11-17T18:58:54.821Z",
-     "src": [
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
-     ],
-     "files": {
-      "build": {
-       "name": "Monstros-da-Atencao-build.zip",
-       "size": 84181575,
-       "asset": 760255363,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 14990,
-       "asset": 760255617,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 3,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T18:58:53.870Z",
-   "id": 12,
-   "title": "Monstros da Atenção",
-   "tipo": "app",
-   "areas": [
-    "Infantil",
-    "Cognitivo"
-   ],
-   "etiquetas": [
-    "atenção",
-    "crianças",
-    "mq kids"
-   ],
-   "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "3–6 anos",
-    "7–12 anos"
-   ],
-   "licenca": "Todos os direitos reservados",
-   "autor": {
-    "login": "mqtechnologies",
-    "name": "MQ Technologies",
-    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
-    "url": "https://github.com/mqtechnologies"
-   },
-   "url": "https://github.com/mqtechnologies/mq-plugins/issues/12",
-   "updated": "2026-11-17T18:58:53.870Z",
-   "previews": [],
-   "thumb": "galeria/f/12/v1/capa.jpg",
-   "editable": false,
-   "destacada": false,
-   "remixes": 0,
-   "score": 3,
-   "trend": 1.53
+   "trend": 1.46
   },
   {
    "versions": [
@@ -814,8 +814,8 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.53
+   "trend": 1.46
   }
  ],
- "updated": "2026-11-19T15:49:38.997Z"
+ "updated": "2026-11-20T00:40:09.782Z"
 }
