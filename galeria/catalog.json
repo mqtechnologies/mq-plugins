@@ -67,7 +67,83 @@
    "destacada": false,
    "remixes": 0,
    "score": 6,
-   "trend": 2.92
+   "trend": 2.72
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g10-v1",
+     "date": "2026-11-17T19:04:41.117Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Subtracoes.mqx",
+       "size": 8281246,
+       "asset": 760273078,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8121,
+       "asset": 760273132,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:04:39.779Z",
+   "id": 10,
+   "title": "Subtrações",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "subtrações",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/10",
+   "updated": "2026-11-17T19:04:39.779Z",
+   "previews": [
+    "galeria/f/10/v1/prev1.jpg",
+    "galeria/f/10/v1/prev2.jpg"
+   ],
+   "ecras": 99,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/10/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 2.04
   },
   {
    "versions": [
@@ -143,7 +219,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.19
+   "trend": 2.04
   },
   {
    "versions": [
@@ -219,7 +295,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.19
+   "trend": 2.04
   },
   {
    "versions": [
@@ -295,7 +371,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.19
+   "trend": 2.04
   },
   {
    "versions": [
@@ -369,7 +445,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.19
+   "trend": 2.04
   },
   {
    "versions": [
@@ -443,7 +519,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 2.19
+   "trend": 2.04
   },
   {
    "versions": [
@@ -512,83 +588,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4,
-   "trend": 1.94
-  },
-  {
-   "versions": [
-    {
-     "v": 1,
-     "tag": "g10-v1",
-     "date": "2026-11-17T19:04:41.117Z",
-     "src": [
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx",
-      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
-     ],
-     "files": {
-      "mqx": {
-       "name": "Subtracoes.mqx",
-       "size": 8281246,
-       "asset": 760273078,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx"
-      },
-      "img": {
-       "name": "capa.jpg",
-       "size": 8121,
-       "asset": 760273132,
-       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/capa.jpg",
-       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
-      }
-     }
-    }
-   ],
-   "downloads": 2,
-   "likes": 0,
-   "comments": 0,
-   "created": "2026-11-17T19:04:39.779Z",
-   "id": 10,
-   "title": "Subtrações",
-   "tipo": "tpl",
-   "areas": [
-    "Cognitivo",
-    "Matemática"
-   ],
-   "etiquetas": [
-    "cálculo",
-    "subtrações",
-    "matemática",
-    "estimulação cognitiva"
-   ],
-   "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
-   "linguas": [
-    "Português"
-   ],
-   "idade": [
-    "Adultos",
-    "Idosos"
-   ],
-   "licenca": "CC BY-NC 4.0",
-   "autor": {
-    "login": "mqtechnologies",
-    "name": "MQ Technologies",
-    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
-    "url": "https://github.com/mqtechnologies"
-   },
-   "url": "https://github.com/mqtechnologies/mq-plugins/issues/10",
-   "updated": "2026-11-17T19:04:39.779Z",
-   "previews": [
-    "galeria/f/10/v1/prev1.jpg",
-    "galeria/f/10/v1/prev2.jpg"
-   ],
-   "ecras": 99,
-   "plugins": [],
-   "camara": false,
-   "thumb": "galeria/f/10/v1/capa.jpg",
-   "editable": true,
-   "destacada": false,
-   "remixes": 0,
-   "score": 3,
-   "trend": 1.46
+   "trend": 1.82
   },
   {
    "versions": [
@@ -664,7 +664,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.46
+   "trend": 1.36
   },
   {
    "versions": [
@@ -739,7 +739,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.46
+   "trend": 1.36
   },
   {
    "versions": [
@@ -814,8 +814,8 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.46
+   "trend": 1.36
   }
  ],
- "updated": "2026-11-20T00:40:09.782Z"
+ "updated": "2026-11-20T15:32:06.479Z"
 }
