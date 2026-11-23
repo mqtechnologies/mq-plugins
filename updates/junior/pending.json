@@ -1,12 +1,12 @@
 {
  "v": 1,
  "ed": "junior",
- "version": "4.8z123",
+ "version": "4.8z124",
  "minExe": "4.8z53",
- "built": "2026-11-19T18:05:12.968Z",
+ "built": "2026-11-23T18:00:47.858Z",
  "parts": [
   {
-   "f": "57152e57bc21720ccf52a3085b37c23704c3b35b454e9e7aeaee4598d0eb3851.bin",
+   "f": "76077344a3abd8b60a9a93f5669121bf4b286152a6dcc78bf05a4424b1e6d22c.bin",
    "n": 192458
   },
   {
@@ -34,8 +34,8 @@
    "n": 769723
   },
   {
-   "f": "f741d05b6add72194e09703ccc01dfcad00c5873341702fcc16cc9a48d9bc3ec.bin",
-   "n": 689358
+   "f": "120e38148b4aa2deca3b5ebb4140c84c8963f3c81bdadfd5642068251378e716.bin",
+   "n": 696230
   }
  ]
 }
