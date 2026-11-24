@@ -22,4 +22,5 @@ jobs:
         run: |
           git config user.name "mq-updates"; git config user.email "mq-updates@users.noreply.github.com"
           git add -A updates
-          git diff --cached --quiet || (git commit -m "Atualização de testes assinada" && git push)
+          # se entretanto entrou outro commit no main (ex.: o recetor da TV), junta-o antes de enviar
+          git diff --cached --quiet || (git commit -m "Atualização de testes assinada" && for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push && break; sleep 5; done)
