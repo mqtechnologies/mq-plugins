@@ -371,7 +371,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 1.57
+   "trend": 1.56
   },
   {
    "versions": [
@@ -445,7 +445,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 1.57
+   "trend": 1.56
   },
   {
    "versions": [
@@ -519,7 +519,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4.5,
-   "trend": 1.57
+   "trend": 1.56
   },
   {
    "versions": [
@@ -588,7 +588,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 4,
-   "trend": 1.4
+   "trend": 1.39
   },
   {
    "versions": [
@@ -664,7 +664,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.05
+   "trend": 1.04
   },
   {
    "versions": [
@@ -739,7 +739,7 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.05
+   "trend": 1.04
   },
   {
    "versions": [
@@ -814,8 +814,78 @@
    "destacada": false,
    "remixes": 0,
    "score": 3,
-   "trend": 1.05
+   "trend": 1.04
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g13-v1",
+     "date": "2026-11-24T01:28:41.020Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros.html",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Aventura-dos-Numeros-build.html",
+       "size": 32252690,
+       "asset": 785239721,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g13-v1/Aventura-dos-Numeros-build.html",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros.html"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 47039,
+       "asset": 785239813,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g13-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-24T01:28:39.452Z",
+   "id": 13,
+   "title": "Aventura dos Números",
+   "tipo": "app",
+   "areas": [
+    "Matemática",
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "somas",
+    "subtrações",
+    "cálculo",
+    "reta numérica",
+    "mq kids"
+   ],
+   "descricao": "Vem somar e subtrair com a Sol e o Verdi! 14 aventuras em vídeo com somas, subtrações, reta numérica, «quanto falta?», sinais + e − e dezenas. Em cada ecrã escolhe-se a resposta certa entre três. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/13",
+   "updated": "2026-11-24T01:28:39.452Z",
+   "previews": [],
+   "thumb": "galeria/f/13/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 0,
+   "trend": 0
   }
  ],
- "updated": "2026-11-23T23:57:53.879Z"
+ "updated": "2026-11-24T01:28:50.066Z"
 }
