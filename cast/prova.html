@@ -5,16 +5,23 @@
 </head><body>
 <h1>Prova do Chromecast · MQ Player</h1>
 <p>Abra esta página no <b>Chrome</b> (computador ou telemóvel), na mesma rede Wi-Fi que o Chromecast, e carregue no ícone para escolher a televisão.</p>
-<google-cast-launcher></google-cast-launcher>
+<google-cast-launcher></google-cast-launcher> <button id="pick">📺 Escolher a TV</button>
 <p><button id="ping" disabled>Enviar «olá» para a TV</button></p>
 <div id="st">À espera do Chromecast…</div>
+<h3>Se não aparece nenhuma TV</h3>
+<ol><li>No Chrome, menu ⋮ → «Transmitir…»: se a TV aparece aí, a rede está bem e o problema é o registo da app.</li>
+<li>Na consola do Google Cast, a app tem de estar <b>Published</b>, ou o Chromecast registado como aparelho de testes (e reiniciado depois). Pode demorar até 15 minutos.</li>
+<li>O computador e o Chromecast têm de estar na mesma rede Wi-Fi (as redes de convidados ou de empresa costumam bloquear).</li></ol>
 <script>
 const APP_ID='4CAC96C5',NS='urn:x-cast:com.musiquence.mq',st=t=>document.getElementById('st').textContent=t;
 window.__onGCastApiAvailable=ok=>{if(!ok){st('Este navegador não tem Google Cast: use o Chrome.');return}
   const ctx=cast.framework.CastContext.getInstance();ctx.setOptions({receiverApplicationId:APP_ID,autoJoinPolicy:chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED});
   ctx.addEventListener(cast.framework.CastContextEventType.SESSION_STATE_CHANGED,e=>{const s=e.sessionState;const ok=s==='SESSION_STARTED'||s==='SESSION_RESUMED';document.getElementById('ping').disabled=!ok;
     st(ok?'Ligado à TV ✔ — na TV deve aparecer «Ligado ✔» depois de enviar o olá.':s==='SESSION_START_FAILED'?'Não foi possível abrir na TV. O Chromecast está registado como aparelho de testes e foi reiniciado?':'À espera do Chromecast…')});
-  ctx.addEventListener(cast.framework.CastContextEventType.CAST_STATE_CHANGED,e=>{if(e.castState==='NO_DEVICES_AVAILABLE')st('Não se encontra nenhum Chromecast nesta rede.')})};
+  const cs=s=>{if(s==='NO_DEVICES_AVAILABLE')st('Estado: nenhum Chromecast disponível para esta app. Veja os passos abaixo.');else if(s==='NOT_CONNECTED')st('Estado: há Chromecast disponível ✔ — carregue em «Escolher a TV».')};
+  ctx.addEventListener(cast.framework.CastContextEventType.CAST_STATE_CHANGED,e=>cs(e.castState));cs(ctx.getCastState());
+  document.getElementById('pick').onclick=()=>ctx.requestSession().catch(e=>st('Escolha cancelada ou sem TV ('+e+').'))};
+setTimeout(()=>{if(!window.cast||!window.cast.framework)st('O Google Cast não carregou: use o Chrome (no computador ou no Android; no iPhone não funciona).')},6000);
 document.getElementById('ping').onclick=()=>{const s=cast.framework.CastContext.getInstance().getCurrentSession();if(s)s.sendMessage(NS,{t:'hello'}).then(()=>st('Olá enviado ✔ — veja a TV.'),e=>st('Erro ao enviar: '+e))};
 </script>
 <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
