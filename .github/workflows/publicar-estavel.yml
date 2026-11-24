@@ -7,7 +7,7 @@ on:
       edicao:
         description: 'Edição'
         type: choice
-        options: [all, pro, free, junior]
+        options: [all, pro, free, junior, player]
         default: all
       acao:
         description: 'publicar = a versão de testes passa a estável · voltar-atras = todas voltam à estável anterior'
