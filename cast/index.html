@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="pt"><head><meta charset="utf-8"><title>MQ Player · TV</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Recetor Google Cast do MQ Player (provisório: só mostra que a ligação funciona; o jogo na TV vem a seguir) -->
+<script src="https://www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+<style>html,body{margin:0;height:100%;background:#13695f;color:#fff;font:700 48px system-ui,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center}small{display:block;font-size:24px;opacity:.8;margin-top:16px}</style>
+</head><body><div>MQ Player<small id="st">À espera do telemóvel…</small></div>
+<script>
+try{const ctx=cast.framework.CastReceiverContext.getInstance();
+  ctx.addCustomMessageListener('urn:x-cast:com.musiquence.mq',e=>{document.getElementById('st').textContent='Ligado ✔'});
+  ctx.start({disableIdleTimeout:false})}catch(e){document.getElementById('st').textContent='MQ Player · TV'}
+</script></body></html>
