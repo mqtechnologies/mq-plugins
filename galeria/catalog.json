@@ -1,1 +1,892 @@
-{"v": 1, "apps": [{"versions": [{"v": 1, "tag": "g11-v1", "date": "2026-11-17T19:05:25.607Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"], "files": {"build": {"name": "Monstro-das-Emocoes-build.html", "size": 28443051, "asset": 760275346, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g11-v1/Monstro-das-Emocoes-build.html", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html"}, "img": {"name": "capa.jpg", "size": 15909, "asset": 760275454, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g11-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"}}}], "downloads": 6, "likes": 0, "comments": 0, "created": "2026-11-17T19:05:24.235Z", "id": 11, "title": "Monstro das Emoções", "tipo": "app", "areas": ["Infantil"], "etiquetas": ["emoções", "crianças", "mq kids"], "descricao": "MQ Kids: jogo para crianças sobre as emoções — reconhecer e dar nome à alegria, à tristeza, à raiva, ao medo e à calma, com música e voz. Só para jogar.", "linguas": ["Português"], "idade": ["3–6 anos", "7–12 anos"], "licenca": "Todos os direitos reservados", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/11", "updated": "2026-11-17T19:05:24.235Z", "previews": [], "thumb": "galeria/f/11/v1/capa.jpg", "editable": false, "destacada": false, "remixes": 0, "score": 6, "trend": 2.09}, {"versions": [{"v": 1, "tag": "g10-v1", "date": "2026-11-17T19:04:41.117Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"], "files": {"mqx": {"name": "Subtracoes.mqx", "size": 8281246, "asset": 760273078, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/Subtracoes.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx"}, "img": {"name": "capa.jpg", "size": 8121, "asset": 760273132, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"}}}], "downloads": 3, "likes": 0, "comments": 0, "created": "2026-11-17T19:04:39.779Z", "id": 10, "title": "Subtrações", "tipo": "tpl", "areas": ["Cognitivo", "Matemática"], "etiquetas": ["cálculo", "subtrações", "matemática", "estimulação cognitiva"], "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/10", "updated": "2026-11-17T19:04:39.779Z", "previews": ["galeria/f/10/v1/prev1.jpg", "galeria/f/10/v1/prev2.jpg"], "ecras": 99, "plugins": [], "camara": false, "thumb": "galeria/f/10/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 4.5, "trend": 1.57}, {"versions": [{"v": 1, "tag": "g9-v1", "date": "2026-11-17T19:03:57.685Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas-capa.jpg"], "files": {"mqx": {"name": "Somas.mqx", "size": 9228491, "asset": 760271327, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g9-v1/Somas.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas.mqx"}, "img": {"name": "capa.jpg", "size": 8318, "asset": 760271397, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g9-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas-capa.jpg"}}}], "downloads": 3, "likes": 0, "comments": 0, "created": "2026-11-17T19:03:56.268Z", "id": 9, "title": "Somas", "tipo": "tpl", "areas": ["Cognitivo", "Matemática"], "etiquetas": ["cálculo", "somas", "matemática", "estimulação cognitiva"], "descricao": "Somas com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/9", "updated": "2026-11-17T19:03:56.268Z", "previews": ["galeria/f/9/v1/prev1.jpg", "galeria/f/9/v1/prev2.jpg"], "ecras": 102, "plugins": [], "camara": false, "thumb": "galeria/f/9/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 4.5, "trend": 1.57}, {"versions": [{"v": 1, "tag": "g8-v1", "date": "2026-11-17T19:03:09.902Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"], "files": {"mqx": {"name": "Multiplicacoes.mqx", "size": 7272287, "asset": 760268843, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/Multiplicacoes.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx"}, "img": {"name": "capa.jpg", "size": 8657, "asset": 760268907, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"}}}], "downloads": 3, "likes": 0, "comments": 0, "created": "2026-11-17T19:03:08.589Z", "id": 8, "title": "Multiplicações", "tipo": "tpl", "areas": ["Cognitivo", "Matemática"], "etiquetas": ["cálculo", "multiplicações", "matemática", "estimulação cognitiva"], "descricao": "Multiplicações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/8", "updated": "2026-11-17T19:03:08.589Z", "previews": ["galeria/f/8/v1/prev1.jpg", "galeria/f/8/v1/prev2.jpg"], "ecras": 91, "plugins": [], "camara": false, "thumb": "galeria/f/8/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 4.5, "trend": 1.57}, {"versions": [{"v": 1, "tag": "g6-v1", "date": "2026-11-17T19:01:45.321Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"], "files": {"mqx": {"name": "Sopa-de-Letras.mqx", "size": 5754778, "asset": 760264103, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"}, "img": {"name": "capa.jpg", "size": 10167, "asset": 760264169, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"}}}], "downloads": 3, "likes": 0, "comments": 0, "created": "2026-11-17T19:01:43.680Z", "id": 6, "title": "Sopa de Letras", "tipo": "tpl", "areas": ["Cognitivo", "Linguagem"], "etiquetas": ["atenção", "linguagem", "palavras", "estimulação cognitiva"], "descricao": "Encontrar as palavras escondidas numa grelha de letras. Treina atenção visual, pesquisa e linguagem. Modelo editável: pode mudar as palavras.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/6", "updated": "2026-11-17T19:01:43.680Z", "previews": ["galeria/f/6/v1/prev1.jpg", "galeria/f/6/v1/prev2.jpg"], "ecras": 29, "plugins": [], "camara": false, "thumb": "galeria/f/6/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 4.5, "trend": 1.56}, {"versions": [{"v": 1, "tag": "g5-v1", "date": "2026-11-17T19:01:07.303Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria-capa.jpg"], "files": {"mqx": {"name": "Memoria.mqx", "size": 16825801, "asset": 760261985, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g5-v1/Memoria.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria.mqx"}, "img": {"name": "capa.jpg", "size": 8038, "asset": 760262054, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g5-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria-capa.jpg"}}}], "downloads": 3, "likes": 0, "comments": 0, "created": "2026-11-17T19:01:05.895Z", "id": 5, "title": "Memória", "tipo": "tpl", "areas": ["Cognitivo"], "etiquetas": ["memória", "pares", "estimulação cognitiva"], "descricao": "Jogo de pares com níveis progressivos (cada vez mais cartas). Treina memória visual e memória de trabalho. Modelo editável: pode trocar as imagens das cartas.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/5", "updated": "2026-11-17T19:01:05.895Z", "previews": ["galeria/f/5/v1/prev1.jpg", "galeria/f/5/v1/prev2.jpg"], "ecras": 145, "plugins": [], "camara": false, "thumb": "galeria/f/5/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 4.5, "trend": 1.56}, {"versions": [{"v": 1, "tag": "g4-v1", "date": "2026-11-17T19:00:28.080Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"], "files": {"mqx": {"name": "Toupeiras.mqx", "size": 3520268, "asset": 760260030, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g4-v1/Toupeiras.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras.mqx"}, "img": {"name": "capa.jpg", "size": 8813, "asset": 760260079, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g4-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"}}}], "downloads": 3, "likes": 0, "comments": 0, "created": "2026-11-17T19:00:26.711Z", "id": 4, "title": "Toupeiras", "tipo": "tpl", "areas": ["Cognitivo"], "etiquetas": ["atenção", "velocidade de processamento", "estimulação cognitiva"], "descricao": "Tocar nas toupeiras que aparecem, com cada vez mais velocidade e distrações a cada nível. Treina atenção sustentada e seletiva e velocidade de processamento. Modelo editável.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/4", "updated": "2026-11-17T19:00:26.711Z", "previews": ["galeria/f/4/v1/prev1.jpg", "galeria/f/4/v1/prev2.jpg"], "ecras": 239, "plugins": [], "camara": false, "thumb": "galeria/f/4/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 4.5, "trend": 1.56}, {"versions": [{"v": 1, "tag": "g12-v1", "date": "2026-11-17T18:58:54.821Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"], "files": {"build": {"name": "Monstros-da-Atencao-build.zip", "size": 84181575, "asset": 760255363, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"}, "img": {"name": "capa.jpg", "size": 14990, "asset": 760255617, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"}}}], "downloads": 4, "likes": 0, "comments": 0, "created": "2026-11-17T18:58:53.870Z", "id": 12, "title": "Monstros da Atenção", "tipo": "app", "areas": ["Infantil", "Cognitivo"], "etiquetas": ["atenção", "crianças", "mq kids"], "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.", "linguas": ["Português"], "idade": ["3–6 anos", "7–12 anos"], "licenca": "Todos os direitos reservados", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/12", "updated": "2026-11-17T18:58:53.870Z", "previews": [], "thumb": "galeria/f/12/v1/capa.jpg", "editable": false, "destacada": false, "remixes": 0, "score": 4, "trend": 1.39}, {"versions": [{"v": 1, "tag": "g7-v1", "date": "2026-11-17T19:02:26.288Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes-capa.jpg"], "files": {"mqx": {"name": "Divisoes.mqx", "size": 7547991, "asset": 760266334, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g7-v1/Divisoes.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes.mqx"}, "img": {"name": "capa.jpg", "size": 8208, "asset": 760266428, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g7-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes-capa.jpg"}}}], "downloads": 2, "likes": 0, "comments": 0, "created": "2026-11-17T19:02:24.972Z", "id": 7, "title": "Divisões", "tipo": "tpl", "areas": ["Cognitivo", "Matemática"], "etiquetas": ["cálculo", "divisões", "matemática", "estimulação cognitiva"], "descricao": "Divisões com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/7", "updated": "2026-11-17T19:02:24.972Z", "previews": ["galeria/f/7/v1/prev1.jpg", "galeria/f/7/v1/prev2.jpg"], "ecras": 94, "plugins": [], "camara": false, "thumb": "galeria/f/7/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 3, "trend": 1.04}, {"versions": [{"v": 1, "tag": "g3-v1", "date": "2026-11-17T18:59:32.024Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"], "files": {"mqx": {"name": "Buscaminas.mqx", "size": 8021849, "asset": 760257121, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g3-v1/Buscaminas.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas.mqx"}, "img": {"name": "capa.jpg", "size": 8565, "asset": 760257183, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g3-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"}}}], "downloads": 2, "likes": 0, "comments": 0, "created": "2026-11-17T18:59:30.686Z", "id": 3, "title": "Buscaminas", "tipo": "tpl", "areas": ["Cognitivo"], "etiquetas": ["funções executivas", "raciocínio", "lógica", "estimulação cognitiva"], "descricao": "Buscaminas com tabuleiros cada vez maiores: usar os números para deduzir onde estão as minas. Treina raciocínio lógico, planeamento e flexibilidade cognitiva. Modelo editável.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/3", "updated": "2026-11-17T18:59:30.686Z", "previews": ["galeria/f/3/v1/prev1.jpg", "galeria/f/3/v1/prev2.jpg"], "ecras": 38, "plugins": [], "camara": false, "thumb": "galeria/f/3/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 3, "trend": 1.04}, {"versions": [{"v": 1, "tag": "g2-v1", "date": "2026-11-17T18:57:00.636Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval.mqx", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"], "files": {"mqx": {"name": "Batalha-Naval.mqx", "size": 6256830, "asset": 760249831, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g2-v1/Batalha-Naval.mqx", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval.mqx"}, "img": {"name": "capa.jpg", "size": 9224, "asset": 760249876, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g2-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"}}}], "downloads": 2, "likes": 0, "comments": 0, "created": "2026-11-17T18:56:59.292Z", "id": 2, "title": "Batalha Naval", "tipo": "tpl", "areas": ["Cognitivo"], "etiquetas": ["funções executivas", "planeamento", "memória de trabalho", "estimulação cognitiva"], "descricao": "Jogo de batalha naval com níveis progressivos: descobrir onde estão os barcos, planeando cada tiro e lembrando as posições já tentadas. Treina funções executivas (planeamento, memória de trabalho, raciocínio). Modelo editável: pode mudar níveis, imagens e textos.", "linguas": ["Português"], "idade": ["Adultos", "Idosos"], "licenca": "CC BY-NC 4.0", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/2", "updated": "2026-11-17T18:56:59.292Z", "previews": ["galeria/f/2/v1/prev1.jpg", "galeria/f/2/v1/prev2.jpg"], "ecras": 41, "plugins": [], "camara": false, "thumb": "galeria/f/2/v1/capa.jpg", "editable": true, "destacada": false, "remixes": 0, "score": 3, "trend": 1.04}, {"versions": [{"v": 1, "tag": "g13-v1", "date": "2026-11-24T01:28:41.020Z", "src": ["https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros.html", "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros-capa.jpg"], "files": {"build": {"name": "Aventura-dos-Numeros-build.html", "size": 32252690, "asset": 785239721, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g13-v1/Aventura-dos-Numeros-build.html", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros.html"}, "img": {"name": "capa.jpg", "size": 47039, "asset": 785239813, "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g13-v1/capa.jpg", "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros-capa.jpg"}}}], "downloads": 0, "likes": 0, "comments": 0, "created": "2026-11-24T01:28:39.452Z", "id": 13, "title": "Aventura dos Números", "tipo": "app", "areas": ["Matemática", "Cognitivo", "Infantil"], "etiquetas": ["somas", "subtrações", "cálculo", "reta numérica", "mq kids"], "descricao": "Vem somar e subtrair com a Sol e o Verdi! 14 aventuras em vídeo com somas, subtrações, reta numérica, «quanto falta?», sinais + e − e dezenas. Em cada ecrã escolhe-se a resposta certa entre três. Só para jogar.", "linguas": ["Português"], "idade": ["3–6 anos"], "licenca": "Todos os direitos reservados", "autor": {"login": "mqtechnologies", "name": "MQ Technologies", "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4", "url": "https://github.com/mqtechnologies"}, "url": "https://github.com/mqtechnologies/mq-plugins/issues/13", "updated": "2026-11-24T01:28:39.452Z", "previews": [], "thumb": "galeria/f/13/v1/capa.jpg", "editable": false, "destacada": false, "remixes": 0, "score": 0, "trend": 0}], "updated": "2026-11-24T01:28:50.066Z"}
+{
+ "v": 1,
+ "apps": [
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g11-v1",
+     "date": "2026-11-17T19:05:25.607Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Monstro-das-Emocoes-build.html",
+       "size": 28443051,
+       "asset": 760275346,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g11-v1/Monstro-das-Emocoes-build.html",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes.html"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 15909,
+       "asset": 760275454,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g11-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstro-das-Emocoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 6,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:05:24.235Z",
+   "id": 11,
+   "title": "Monstro das Emoções",
+   "tipo": "app",
+   "areas": [
+    "Infantil"
+   ],
+   "etiquetas": [
+    "emoções",
+    "crianças",
+    "mq kids"
+   ],
+   "descricao": "MQ Kids: jogo para crianças sobre as emoções — reconhecer e dar nome à alegria, à tristeza, à raiva, ao medo e à calma, com música e voz. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos",
+    "7–12 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/11",
+   "updated": "2026-11-17T19:05:24.235Z",
+   "previews": [],
+   "thumb": "galeria/f/11/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 6,
+   "trend": 2.09
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g10-v1",
+     "date": "2026-11-17T19:04:41.117Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Subtracoes.mqx",
+       "size": 8281246,
+       "asset": 760273078,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/Subtracoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8121,
+       "asset": 760273132,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g10-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Subtracoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:04:39.779Z",
+   "id": 10,
+   "title": "Subtrações",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "subtrações",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Subtrações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/10",
+   "updated": "2026-11-17T19:04:39.779Z",
+   "previews": [
+    "galeria/f/10/v1/prev1.jpg",
+    "galeria/f/10/v1/prev2.jpg"
+   ],
+   "ecras": 99,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/10/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 1.57
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g9-v1",
+     "date": "2026-11-17T19:03:57.685Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Somas.mqx",
+       "size": 9228491,
+       "asset": 760271327,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g9-v1/Somas.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8318,
+       "asset": 760271397,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g9-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Somas-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:03:56.268Z",
+   "id": 9,
+   "title": "Somas",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "somas",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Somas com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/9",
+   "updated": "2026-11-17T19:03:56.268Z",
+   "previews": [
+    "galeria/f/9/v1/prev1.jpg",
+    "galeria/f/9/v1/prev2.jpg"
+   ],
+   "ecras": 102,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/9/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 1.57
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g8-v1",
+     "date": "2026-11-17T19:03:09.902Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Multiplicacoes.mqx",
+       "size": 7272287,
+       "asset": 760268843,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/Multiplicacoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8657,
+       "asset": 760268907,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g8-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Multiplicacoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:03:08.589Z",
+   "id": 8,
+   "title": "Multiplicações",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "multiplicações",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Multiplicações com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/8",
+   "updated": "2026-11-17T19:03:08.589Z",
+   "previews": [
+    "galeria/f/8/v1/prev1.jpg",
+    "galeria/f/8/v1/prev2.jpg"
+   ],
+   "ecras": 91,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/8/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 1.57
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g6-v1",
+     "date": "2026-11-17T19:01:45.321Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Sopa-de-Letras.mqx",
+       "size": 5754778,
+       "asset": 760264103,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/Sopa-de-Letras.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 10167,
+       "asset": 760264169,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g6-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Sopa-de-Letras-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:01:43.680Z",
+   "id": 6,
+   "title": "Sopa de Letras",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Linguagem"
+   ],
+   "etiquetas": [
+    "atenção",
+    "linguagem",
+    "palavras",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Encontrar as palavras escondidas numa grelha de letras. Treina atenção visual, pesquisa e linguagem. Modelo editável: pode mudar as palavras.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/6",
+   "updated": "2026-11-17T19:01:43.680Z",
+   "previews": [
+    "galeria/f/6/v1/prev1.jpg",
+    "galeria/f/6/v1/prev2.jpg"
+   ],
+   "ecras": 29,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/6/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 1.56
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g5-v1",
+     "date": "2026-11-17T19:01:07.303Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Memoria.mqx",
+       "size": 16825801,
+       "asset": 760261985,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g5-v1/Memoria.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8038,
+       "asset": 760262054,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g5-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Memoria-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:01:05.895Z",
+   "id": 5,
+   "title": "Memória",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "memória",
+    "pares",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Jogo de pares com níveis progressivos (cada vez mais cartas). Treina memória visual e memória de trabalho. Modelo editável: pode trocar as imagens das cartas.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/5",
+   "updated": "2026-11-17T19:01:05.895Z",
+   "previews": [
+    "galeria/f/5/v1/prev1.jpg",
+    "galeria/f/5/v1/prev2.jpg"
+   ],
+   "ecras": 145,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/5/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 1.56
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g4-v1",
+     "date": "2026-11-17T19:00:28.080Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Toupeiras.mqx",
+       "size": 3520268,
+       "asset": 760260030,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g4-v1/Toupeiras.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8813,
+       "asset": 760260079,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g4-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Toupeiras-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 3,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:00:26.711Z",
+   "id": 4,
+   "title": "Toupeiras",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "velocidade de processamento",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Tocar nas toupeiras que aparecem, com cada vez mais velocidade e distrações a cada nível. Treina atenção sustentada e seletiva e velocidade de processamento. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/4",
+   "updated": "2026-11-17T19:00:26.711Z",
+   "previews": [
+    "galeria/f/4/v1/prev1.jpg",
+    "galeria/f/4/v1/prev2.jpg"
+   ],
+   "ecras": 239,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/4/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4.5,
+   "trend": 1.56
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g12-v1",
+     "date": "2026-11-17T18:58:54.821Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Monstros-da-Atencao-build.zip",
+       "size": 84181575,
+       "asset": 760255363,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/Monstros-da-Atencao-build.zip",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao.zip"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 14990,
+       "asset": 760255617,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g12-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Monstros-da-Atencao-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 4,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T18:58:53.870Z",
+   "id": 12,
+   "title": "Monstros da Atenção",
+   "tipo": "app",
+   "areas": [
+    "Infantil",
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "atenção",
+    "crianças",
+    "mq kids"
+   ],
+   "descricao": "MQ Kids: jogos de atenção para crianças com os monstros — procurar, contar e reagir, com música e vídeo. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos",
+    "7–12 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/12",
+   "updated": "2026-11-17T18:58:53.870Z",
+   "previews": [],
+   "thumb": "galeria/f/12/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 4,
+   "trend": 1.39
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g7-v1",
+     "date": "2026-11-17T19:02:26.288Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Divisoes.mqx",
+       "size": 7547991,
+       "asset": 760266334,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g7-v1/Divisoes.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8208,
+       "asset": 760266428,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g7-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Divisoes-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 2,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T19:02:24.972Z",
+   "id": 7,
+   "title": "Divisões",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo",
+    "Matemática"
+   ],
+   "etiquetas": [
+    "cálculo",
+    "divisões",
+    "matemática",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Divisões com níveis progressivos, do mais simples ao mais exigente (cálculo mental). Treina cálculo, atenção e memória de trabalho. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/7",
+   "updated": "2026-11-17T19:02:24.972Z",
+   "previews": [
+    "galeria/f/7/v1/prev1.jpg",
+    "galeria/f/7/v1/prev2.jpg"
+   ],
+   "ecras": 94,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/7/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 1.04
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g3-v1",
+     "date": "2026-11-17T18:59:32.024Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Buscaminas.mqx",
+       "size": 8021849,
+       "asset": 760257121,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g3-v1/Buscaminas.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 8565,
+       "asset": 760257183,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g3-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Buscaminas-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 2,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T18:59:30.686Z",
+   "id": 3,
+   "title": "Buscaminas",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "funções executivas",
+    "raciocínio",
+    "lógica",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Buscaminas com tabuleiros cada vez maiores: usar os números para deduzir onde estão as minas. Treina raciocínio lógico, planeamento e flexibilidade cognitiva. Modelo editável.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/3",
+   "updated": "2026-11-17T18:59:30.686Z",
+   "previews": [
+    "galeria/f/3/v1/prev1.jpg",
+    "galeria/f/3/v1/prev2.jpg"
+   ],
+   "ecras": 38,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/3/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 1.04
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g2-v1",
+     "date": "2026-11-17T18:57:00.636Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval.mqx",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
+     ],
+     "files": {
+      "mqx": {
+       "name": "Batalha-Naval.mqx",
+       "size": 6256830,
+       "asset": 760249831,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g2-v1/Batalha-Naval.mqx",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval.mqx"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 9224,
+       "asset": 760249876,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g2-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Batalha-Naval-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 2,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-17T18:56:59.292Z",
+   "id": 2,
+   "title": "Batalha Naval",
+   "tipo": "tpl",
+   "areas": [
+    "Cognitivo"
+   ],
+   "etiquetas": [
+    "funções executivas",
+    "planeamento",
+    "memória de trabalho",
+    "estimulação cognitiva"
+   ],
+   "descricao": "Jogo de batalha naval com níveis progressivos: descobrir onde estão os barcos, planeando cada tiro e lembrando as posições já tentadas. Treina funções executivas (planeamento, memória de trabalho, raciocínio). Modelo editável: pode mudar níveis, imagens e textos.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "Adultos",
+    "Idosos"
+   ],
+   "licenca": "CC BY-NC 4.0",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/2",
+   "updated": "2026-11-17T18:56:59.292Z",
+   "previews": [
+    "galeria/f/2/v1/prev1.jpg",
+    "galeria/f/2/v1/prev2.jpg"
+   ],
+   "ecras": 41,
+   "plugins": [],
+   "camara": false,
+   "thumb": "galeria/f/2/v1/capa.jpg",
+   "editable": true,
+   "destacada": false,
+   "remixes": 0,
+   "score": 3,
+   "trend": 1.04
+  },
+  {
+   "versions": [
+    {
+     "v": 1,
+     "tag": "g13-v1",
+     "date": "2026-11-24T01:28:41.020Z",
+     "src": [
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros.html",
+      "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros-capa.jpg"
+     ],
+     "files": {
+      "build": {
+       "name": "Aventura-dos-Numeros-build.html",
+       "size": 32252690,
+       "asset": 785239721,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g13-v1/Aventura-dos-Numeros-build.html",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros.html"
+      },
+      "img": {
+       "name": "capa.jpg",
+       "size": 47039,
+       "asset": 785239813,
+       "url": "https://github.com/mqtechnologies/mq-plugins/releases/download/g13-v1/capa.jpg",
+       "src": "https://raw.githubusercontent.com/mqtechnologies/mq-plugins/galeria-fontes/Aventura-dos-Numeros-capa.jpg"
+      }
+     }
+    }
+   ],
+   "downloads": 0,
+   "likes": 0,
+   "comments": 0,
+   "created": "2026-11-24T01:28:39.452Z",
+   "id": 13,
+   "title": "Aventura dos Números",
+   "tipo": "app",
+   "areas": [
+    "Matemática",
+    "Cognitivo",
+    "Infantil"
+   ],
+   "etiquetas": [
+    "somas",
+    "subtrações",
+    "cálculo",
+    "reta numérica",
+    "mq kids"
+   ],
+   "descricao": "Vem somar e subtrair com a Sol e o Verdi! 14 aventuras em vídeo com somas, subtrações, reta numérica, «quanto falta?», sinais + e − e dezenas. Em cada ecrã escolhe-se a resposta certa entre três. Só para jogar.",
+   "linguas": [
+    "Português"
+   ],
+   "idade": [
+    "3–6 anos"
+   ],
+   "licenca": "Todos os direitos reservados",
+   "autor": {
+    "login": "mqtechnologies",
+    "name": "MQ Technologies",
+    "avatar": "https://avatars.githubusercontent.com/mqtechnologies?v=4",
+    "url": "https://github.com/mqtechnologies"
+   },
+   "url": "https://github.com/mqtechnologies/mq-plugins/issues/13",
+   "updated": "2026-11-24T01:28:39.452Z",
+   "previews": [],
+   "thumb": "galeria/f/13/v1/capa.jpg",
+   "editable": false,
+   "destacada": false,
+   "remixes": 0,
+   "score": 0,
+   "trend": 0
+  }
+ ],
+ "updated": "2026-11-24T01:28:50.066Z"
+}
