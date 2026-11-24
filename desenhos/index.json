@@ -1,0 +1,1051 @@
+{
+ "v": 1,
+ "title": {
+  "pt": "Desenhos e animações",
+  "ca": "Dibuixos i animacions",
+  "es": "Dibujos y animaciones",
+  "en": "Drawings and animations",
+  "fr": "Dessins et animations",
+  "de": "Zeichnungen und Animationen",
+  "it": "Disegni e animazioni"
+ },
+ "groups": [
+  {
+   "id": "tipo",
+   "name": {
+    "pt": "Tipo",
+    "ca": "Tipus",
+    "es": "Tipo",
+    "en": "Type",
+    "fr": "Type",
+    "de": "Art",
+    "it": "Tipo"
+   },
+   "tags": [
+    {
+     "id": "pessoa",
+     "name": {
+      "pt": "Pessoa",
+      "ca": "Persona",
+      "es": "Persona",
+      "en": "Person",
+      "fr": "Personne",
+      "de": "Person",
+      "it": "Persona"
+     }
+    },
+    {
+     "id": "menino",
+     "name": {
+      "pt": "Menino",
+      "ca": "Nen",
+      "es": "Niño",
+      "en": "Boy",
+      "fr": "Garçon",
+      "de": "Junge",
+      "it": "Bambino"
+     }
+    },
+    {
+     "id": "menina",
+     "name": {
+      "pt": "Menina",
+      "ca": "Nena",
+      "es": "Niña",
+      "en": "Girl",
+      "fr": "Fille",
+      "de": "Mädchen",
+      "it": "Bambina"
+     }
+    },
+    {
+     "id": "animal",
+     "name": {
+      "pt": "Animal",
+      "ca": "Animal",
+      "es": "Animal",
+      "en": "Animal",
+      "fr": "Animal",
+      "de": "Tier",
+      "it": "Animale"
+     }
+    },
+    {
+     "id": "criatura",
+     "name": {
+      "pt": "Criatura",
+      "ca": "Criatura",
+      "es": "Criatura",
+      "en": "Creature",
+      "fr": "Créature",
+      "de": "Wesen",
+      "it": "Creatura"
+     }
+    },
+    {
+     "id": "monstro",
+     "name": {
+      "pt": "Monstro",
+      "ca": "Monstre",
+      "es": "Monstruo",
+      "en": "Monster",
+      "fr": "Monstre",
+      "de": "Monster",
+      "it": "Mostro"
+     }
+    },
+    {
+     "id": "objeto",
+     "name": {
+      "pt": "Objeto",
+      "ca": "Objecte",
+      "es": "Objeto",
+      "en": "Object",
+      "fr": "Objet",
+      "de": "Objekt",
+      "it": "Oggetto"
+     }
+    }
+   ]
+  },
+  {
+   "id": "estilo",
+   "name": {
+    "pt": "Estilo",
+    "ca": "Estil",
+    "es": "Estilo",
+    "en": "Style",
+    "fr": "Style",
+    "de": "Stil",
+    "it": "Stile"
+   },
+   "tags": [
+    {
+     "id": "lapis",
+     "name": {
+      "pt": "Lápis",
+      "ca": "Llapis",
+      "es": "Lápiz",
+      "en": "Pencil",
+      "fr": "Crayon",
+      "de": "Bleistift",
+      "it": "Matita"
+     }
+    },
+    {
+     "id": "caneta",
+     "name": {
+      "pt": "Caneta",
+      "ca": "Bolígraf",
+      "es": "Bolígrafo",
+      "en": "Pen",
+      "fr": "Stylo",
+      "de": "Kuli",
+      "it": "Penna"
+     }
+    },
+    {
+     "id": "cores",
+     "name": {
+      "pt": "Cores",
+      "ca": "Colors",
+      "es": "Colores",
+      "en": "Colour",
+      "fr": "Couleurs",
+      "de": "Farbig",
+      "it": "Colori"
+     }
+    },
+    {
+     "id": "pb",
+     "name": {
+      "pt": "Preto e branco",
+      "ca": "Blanc i negre",
+      "es": "Blanco y negro",
+      "en": "Black and white",
+      "fr": "Noir et blanc",
+      "de": "Schwarzweiß",
+      "it": "Bianco e nero"
+     }
+    }
+   ]
+  },
+  {
+   "id": "origem",
+   "name": {
+    "pt": "Origem",
+    "ca": "Origen",
+    "es": "Origen",
+    "en": "Source",
+    "fr": "Origine",
+    "de": "Herkunft",
+    "it": "Origine"
+   },
+   "tags": [
+    {
+     "id": "infantil",
+     "name": {
+      "pt": "Desenho de criança",
+      "ca": "Dibuix d’infant",
+      "es": "Dibujo infantil",
+      "en": "Child’s drawing",
+      "fr": "Dessin d’enfant",
+      "de": "Kinderzeichnung",
+      "it": "Disegno di bambino"
+     }
+    },
+    {
+     "id": "mq",
+     "name": {
+      "pt": "MQ Technologies",
+      "ca": "MQ Technologies",
+      "es": "MQ Technologies",
+      "en": "MQ Technologies",
+      "fr": "MQ Technologies",
+      "de": "MQ Technologies",
+      "it": "MQ Technologies"
+     }
+    },
+    {
+     "id": "comunidade",
+     "name": {
+      "pt": "Comunidade",
+      "ca": "Comunitat",
+      "es": "Comunidad",
+      "en": "Community",
+      "fr": "Communauté",
+      "de": "Community",
+      "it": "Comunità"
+     }
+    }
+   ]
+  },
+  {
+   "id": "comp",
+   "name": {
+    "pt": "Comportamento",
+    "ca": "Comportament",
+    "es": "Comportamiento",
+    "en": "Behaviour",
+    "fr": "Comportement",
+    "de": "Verhalten",
+    "it": "Comportamento"
+   },
+   "tags": [
+    {
+     "id": "parado",
+     "name": {
+      "pt": "Quieto",
+      "ca": "Quiet",
+      "es": "Quieto",
+      "en": "Idle",
+      "fr": "Immobile",
+      "de": "Ruhig",
+      "it": "Fermo"
+     }
+    },
+    {
+     "id": "anda",
+     "name": {
+      "pt": "Anda",
+      "ca": "Camina",
+      "es": "Camina",
+      "en": "Walks",
+      "fr": "Marche",
+      "de": "Geht",
+      "it": "Cammina"
+     }
+    },
+    {
+     "id": "salta",
+     "name": {
+      "pt": "Salta",
+      "ca": "Salta",
+      "es": "Salta",
+      "en": "Jumps",
+      "fr": "Saute",
+      "de": "Springt",
+      "it": "Salta"
+     }
+    },
+    {
+     "id": "contente",
+     "name": {
+      "pt": "Contente",
+      "ca": "Content",
+      "es": "Contento",
+      "en": "Happy",
+      "fr": "Content",
+      "de": "Fröhlich",
+      "it": "Contento"
+     }
+    },
+    {
+     "id": "animado",
+     "name": {
+      "pt": "Animado",
+      "ca": "Animat",
+      "es": "Animado",
+      "en": "Animated",
+      "fr": "Animé",
+      "de": "Animiert",
+      "it": "Animato"
+     }
+    },
+    {
+     "id": "estatico",
+     "name": {
+      "pt": "Estático",
+      "ca": "Estàtic",
+      "es": "Estático",
+      "en": "Still",
+      "fr": "Fixe",
+      "de": "Unbewegt",
+      "it": "Statico"
+     }
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "idle": {
+   "pt": "Quieto",
+   "ca": "Quiet",
+   "es": "Quieto",
+   "en": "Idle",
+   "fr": "Immobile",
+   "de": "Ruhig",
+   "it": "Fermo"
+  },
+  "walk": {
+   "pt": "Anda",
+   "ca": "Camina",
+   "es": "Camina",
+   "en": "Walks",
+   "fr": "Marche",
+   "de": "Geht",
+   "it": "Cammina"
+  },
+  "jump": {
+   "pt": "Salta",
+   "ca": "Salta",
+   "es": "Salta",
+   "en": "Jumps",
+   "fr": "Saute",
+   "de": "Springt",
+   "it": "Salta"
+  },
+  "happy": {
+   "pt": "Contente",
+   "ca": "Content",
+   "es": "Contento",
+   "en": "Happy",
+   "fr": "Content",
+   "de": "Fröhlich",
+   "it": "Contento"
+  },
+  "anim": {
+   "pt": "Animada",
+   "ca": "Animada",
+   "es": "Animada",
+   "en": "Animated",
+   "fr": "Animée",
+   "de": "Animiert",
+   "it": "Animata"
+  },
+  "still": {
+   "pt": "Parada",
+   "ca": "Quieta",
+   "es": "Quieta",
+   "en": "Still",
+   "fr": "Fixe",
+   "de": "Unbewegt",
+   "it": "Ferma"
+  }
+ },
+ "items": [
+  {
+   "id": "despentinat",
+   "name": {
+    "pt": "Despenteado",
+    "ca": "Despentinat",
+    "es": "Despeinado",
+    "en": "Messy-hair kid",
+    "fr": "Ébouriffé",
+    "de": "Strubbelkopf",
+    "it": "Spettinato"
+   },
+   "tags": [
+    "pessoa",
+    "menino",
+    "lapis",
+    "pb",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "despentinat/thumb.png",
+   "files": {
+    "idle": "despentinat/idle.png",
+    "walk": "despentinat/walk.png",
+    "jump": "despentinat/jump.png",
+    "happy": "despentinat/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "nen",
+   "name": {
+    "pt": "Menino",
+    "ca": "Nen",
+    "es": "Niño",
+    "en": "Boy",
+    "fr": "Garçon",
+    "de": "Junge",
+    "it": "Bambino"
+   },
+   "tags": [
+    "pessoa",
+    "menino",
+    "lapis",
+    "pb",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "nen/thumb.png",
+   "files": {
+    "idle": "nen/idle.png",
+    "walk": "nen/walk.png",
+    "jump": "nen/jump.png",
+    "happy": "nen/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "nena",
+   "name": {
+    "pt": "Menina",
+    "ca": "Nena",
+    "es": "Niña",
+    "en": "Girl",
+    "fr": "Fille",
+    "de": "Mädchen",
+    "it": "Bambina"
+   },
+   "tags": [
+    "pessoa",
+    "menina",
+    "lapis",
+    "pb",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "nena/thumb.png",
+   "files": {
+    "idle": "nena/idle.png",
+    "walk": "nena/walk.png",
+    "jump": "nena/jump.png",
+    "happy": "nena/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "criatura_rosa",
+   "name": {
+    "pt": "Criatura cor-de-rosa",
+    "ca": "Criatura rosa",
+    "es": "Criatura rosa",
+    "en": "Pink creature",
+    "fr": "Créature rose",
+    "de": "Rosa Wesen",
+    "it": "Creatura rosa"
+   },
+   "tags": [
+    "criatura",
+    "cores",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "criatura_rosa/thumb.png",
+   "files": {
+    "idle": "criatura_rosa/idle.png",
+    "walk": "criatura_rosa/walk.png",
+    "jump": "criatura_rosa/jump.png",
+    "happy": "criatura_rosa/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "gat",
+   "name": {
+    "pt": "Gato",
+    "ca": "Gat",
+    "es": "Gato",
+    "en": "Cat",
+    "fr": "Chat",
+    "de": "Katze",
+    "it": "Gatto"
+   },
+   "tags": [
+    "animal",
+    "lapis",
+    "pb",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "gat/thumb.png",
+   "files": {
+    "idle": "gat/idle.png",
+    "walk": "gat/walk.png",
+    "jump": "gat/jump.png",
+    "happy": "gat/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cap_de_gargots",
+   "name": {
+    "pt": "Cabeça de rabiscos",
+    "ca": "Cap de gargots",
+    "es": "Cabeza de garabatos",
+    "en": "Scribble head",
+    "fr": "Tête gribouillée",
+    "de": "Kritzelkopf",
+    "it": "Testa di scarabocchi"
+   },
+   "tags": [
+    "pessoa",
+    "caneta",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "cap_de_gargots/thumb.png",
+   "files": {
+    "idle": "cap_de_gargots/idle.png",
+    "walk": "cap_de_gargots/walk.png",
+    "jump": "cap_de_gargots/jump.png",
+    "happy": "cap_de_gargots/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "nena_rinxols",
+   "name": {
+    "pt": "Menina dos caracóis",
+    "ca": "Nena de rínxols",
+    "es": "Niña de rizos",
+    "en": "Curly girl",
+    "fr": "Fille bouclée",
+    "de": "Lockiges Mädchen",
+    "it": "Bambina riccia"
+   },
+   "tags": [
+    "pessoa",
+    "menina",
+    "caneta",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "nena_rinxols/thumb.png",
+   "files": {
+    "idle": "nena_rinxols/idle.png",
+    "walk": "nena_rinxols/walk.png",
+    "jump": "nena_rinxols/jump.png",
+    "happy": "nena_rinxols/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "cap_quadrat",
+   "name": {
+    "pt": "Cabeça quadrada",
+    "ca": "Cap quadrat",
+    "es": "Cabeza cuadrada",
+    "en": "Square head",
+    "fr": "Tête carrée",
+    "de": "Quadratkopf",
+    "it": "Testa quadrata"
+   },
+   "tags": [
+    "pessoa",
+    "menina",
+    "caneta",
+    "infantil",
+    "parado",
+    "anda",
+    "salta",
+    "contente"
+   ],
+   "thumb": "cap_quadrat/thumb.png",
+   "files": {
+    "idle": "cap_quadrat/idle.png",
+    "walk": "cap_quadrat/walk.png",
+    "jump": "cap_quadrat/jump.png",
+    "happy": "cap_quadrat/happy.png"
+   },
+   "author": "Núria Bermúdez Cameirão",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "m_verde_oculos",
+   "name": {
+    "pt": "Monstro verde de óculos",
+    "ca": "Monstre verd amb ulleres",
+    "es": "Monstruo verde con gafas",
+    "en": "Green monster with glasses",
+    "fr": "Monstre vert à lunettes",
+    "de": "Grünes Monster mit Brille",
+    "it": "Mostro verde con occhiali"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/verde_oculos_t.png",
+   "files": {
+    "still": "monstros/verde_oculos.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_amarelo_feliz",
+   "name": {
+    "pt": "Monstro amarelo feliz",
+    "ca": "Monstre groc content",
+    "es": "Monstruo amarillo feliz",
+    "en": "Happy yellow monster",
+    "fr": "Monstre jaune joyeux",
+    "de": "Fröhliches gelbes Monster",
+    "it": "Mostro giallo felice"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/amarelo_feliz_t.png",
+   "files": {
+    "still": "monstros/amarelo_feliz.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_amarelo_feliz2",
+   "name": {
+    "pt": "Monstro amarelo feliz 2",
+    "ca": "Monstre groc content 2",
+    "es": "Monstruo amarillo feliz 2",
+    "en": "Happy yellow monster 2",
+    "fr": "Monstre jaune joyeux 2",
+    "de": "Fröhliches gelbes Monster 2",
+    "it": "Mostro giallo felice 2"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/amarelo_feliz2_t.png",
+   "files": {
+    "still": "monstros/amarelo_feliz2.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_lilas_um_olho",
+   "name": {
+    "pt": "Monstro lilás de um olho",
+    "ca": "Monstre lila d’un ull",
+    "es": "Monstruo lila de un ojo",
+    "en": "One-eyed lilac monster",
+    "fr": "Monstre lilas à un œil",
+    "de": "Einäugiges lila Monster",
+    "it": "Mostro lilla con un occhio"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/lilas_um_olho_t.png",
+   "files": {
+    "still": "monstros/lilas_um_olho.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_lilas_piscar",
+   "name": {
+    "pt": "Monstro lilás a piscar o olho",
+    "ca": "Monstre lila fent l’ullet",
+    "es": "Monstruo lila guiñando",
+    "en": "Winking lilac monster",
+    "fr": "Monstre lilas qui fait un clin d’œil",
+    "de": "Zwinkerndes lila Monster",
+    "it": "Mostro lilla che fa l’occhiolino"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/lilas_piscar_t.png",
+   "files": {
+    "still": "monstros/lilas_piscar.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_verde_piscar",
+   "name": {
+    "pt": "Monstro verde a piscar o olho",
+    "ca": "Monstre verd fent l’ullet",
+    "es": "Monstruo verde guiñando",
+    "en": "Winking green monster",
+    "fr": "Monstre vert qui fait un clin d’œil",
+    "de": "Zwinkerndes grünes Monster",
+    "it": "Mostro verde che fa l’occhiolino"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/verde_piscar_t.png",
+   "files": {
+    "still": "monstros/verde_piscar.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_verde_feliz",
+   "name": {
+    "pt": "Monstro verde feliz",
+    "ca": "Monstre verd content",
+    "es": "Monstruo verde feliz",
+    "en": "Happy green monster",
+    "fr": "Monstre vert joyeux",
+    "de": "Fröhliches grünes Monster",
+    "it": "Mostro verde felice"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/verde_feliz_t.png",
+   "files": {
+    "still": "monstros/verde_feliz.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_verde_chapeu",
+   "name": {
+    "pt": "Monstro verde de chapéu",
+    "ca": "Monstre verd amb barret",
+    "es": "Monstruo verde con sombrero",
+    "en": "Green monster with hat",
+    "fr": "Monstre vert au chapeau",
+    "de": "Grünes Monster mit Hut",
+    "it": "Mostro verde con cappello"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/verde_chapeu_t.png",
+   "files": {
+    "still": "monstros/verde_chapeu.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_verde_chapeu_oculos",
+   "name": {
+    "pt": "Monstro de chapéu e óculos",
+    "ca": "Monstre amb barret i ulleres",
+    "es": "Monstruo con sombrero y gafas",
+    "en": "Monster with hat and glasses",
+    "fr": "Monstre au chapeau et lunettes",
+    "de": "Monster mit Hut und Brille",
+    "it": "Mostro con cappello e occhiali"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/verde_chapeu_oculos_t.png",
+   "files": {
+    "still": "monstros/verde_chapeu_oculos.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_vermelho_oculos",
+   "name": {
+    "pt": "Monstro vermelho de óculos",
+    "ca": "Monstre vermell amb ulleres",
+    "es": "Monstruo rojo con gafas",
+    "en": "Red monster with glasses",
+    "fr": "Monstre rouge à lunettes",
+    "de": "Rotes Monster mit Brille",
+    "it": "Mostro rosso con occhiali"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/vermelho_oculos_t.png",
+   "files": {
+    "still": "monstros/vermelho_oculos.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "m_rosa_oculos",
+   "name": {
+    "pt": "Monstro cor-de-rosa de óculos",
+    "ca": "Monstre rosa amb ulleres",
+    "es": "Monstruo rosa con gafas",
+    "en": "Pink monster with glasses",
+    "fr": "Monstre rose à lunettes",
+    "de": "Rosa Monster mit Brille",
+    "it": "Mostro rosa con occhiali"
+   },
+   "tags": [
+    "monstro",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "monstros/rosa_oculos_t.png",
+   "files": {
+    "still": "monstros/rosa_oculos.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "cenario_rocha",
+   "name": {
+    "pt": "Rocha",
+    "ca": "Roca",
+    "es": "Roca",
+    "en": "Rock",
+    "fr": "Rocher",
+    "de": "Felsen",
+    "it": "Roccia"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "objetos/cenario_rocha_t.png",
+   "files": {
+    "still": "objetos/cenario_rocha.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "cenario_arbusto",
+   "name": {
+    "pt": "Arbusto",
+    "ca": "Arbust",
+    "es": "Arbusto",
+    "en": "Bush",
+    "fr": "Buisson",
+    "de": "Busch",
+    "it": "Cespuglio"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "objetos/cenario_arbusto_t.png",
+   "files": {
+    "still": "objetos/cenario_arbusto.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "cenario_cato",
+   "name": {
+    "pt": "Cato",
+    "ca": "Cactus",
+    "es": "Cactus",
+    "en": "Cactus",
+    "fr": "Cactus",
+    "de": "Kaktus",
+    "it": "Cactus"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "objetos/cenario_cato_t.png",
+   "files": {
+    "still": "objetos/cenario_cato.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "cenario_erva",
+   "name": {
+    "pt": "Erva",
+    "ca": "Herba",
+    "es": "Hierba",
+    "en": "Grass",
+    "fr": "Herbe",
+    "de": "Gras",
+    "it": "Erba"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "objetos/cenario_erva_t.png",
+   "files": {
+    "still": "objetos/cenario_erva.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "cenario_erva2",
+   "name": {
+    "pt": "Erva 2",
+    "ca": "Herba 2",
+    "es": "Hierba 2",
+    "en": "Grass 2",
+    "fr": "Herbe 2",
+    "de": "Gras 2",
+    "it": "Erba 2"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "estatico"
+   ],
+   "thumb": "objetos/cenario_erva2_t.png",
+   "files": {
+    "still": "objetos/cenario_erva2.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "estrela_verde",
+   "name": {
+    "pt": "Estrela verde",
+    "ca": "Estrella verda",
+    "es": "Estrella verde",
+    "en": "Green star",
+    "fr": "Étoile verte",
+    "de": "Grüner Stern",
+    "it": "Stella verde"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "animado"
+   ],
+   "thumb": "objetos/estrela_verde_t.png",
+   "files": {
+    "anim": "objetos/estrela_verde_animada.png",
+    "still": "objetos/estrela_verde.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  },
+  {
+   "id": "estrela_lilas",
+   "name": {
+    "pt": "Estrela lilás",
+    "ca": "Estrella lila",
+    "es": "Estrella lila",
+    "en": "Lilac star",
+    "fr": "Étoile lilas",
+    "de": "Lila Stern",
+    "it": "Stella lilla"
+   },
+   "tags": [
+    "objeto",
+    "cores",
+    "mq",
+    "animado"
+   ],
+   "thumb": "objetos/estrela_lilas_t.png",
+   "files": {
+    "anim": "objetos/estrela_lilas_animada.png",
+    "still": "objetos/estrela_lilas.png"
+   },
+   "author": "MQ Technologies",
+   "license": "© MQ Technologies"
+  }
+ ]
+}
