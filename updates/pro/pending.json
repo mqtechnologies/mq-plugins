@@ -1,12 +1,12 @@
 {
  "v": 1,
  "ed": "pro",
- "version": "4.8z126",
+ "version": "4.8z127",
  "minExe": "4.8z53",
- "built": "2026-11-24T00:27:08.362Z",
+ "built": "2026-11-24T00:44:16.309Z",
  "parts": [
   {
-   "f": "5dc9417f1e594d650f009e0db84e9b770dbc254f4d1cd2f758d014a9b139bab4.bin",
+   "f": "4b727a73ab6d08e90d3b836e060fa8c671c1fe745904cddd930edf302ef08d33.bin",
    "n": 193150
   },
   {
@@ -30,12 +30,12 @@
    "n": 1086257
   },
   {
-   "f": "05cf5fd6f7cebb3a6e3d3b95210ef9ede778d414ccb3220bc34cff6ad64b5d4c.bin",
-   "n": 1172119
+   "f": "30fc120fa273b79ddec799ef82a17a1f487626fb242e50b742d89f55eb00909e.bin",
+   "n": 1172377
   },
   {
-   "f": "dad0858f336276fd6efae465790095cc67730f426497bcaea9b338665d752901.bin",
-   "n": 702826
+   "f": "f77a25ae4a204f48265bcc49d45fe431dece7ff884fbb517cdc21f81e580e4d6.bin",
+   "n": 702912
   }
  ]
 }
